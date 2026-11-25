@@ -52,6 +52,14 @@ st.markdown("""
         border-radius: 6px;
         font-weight: 600;
     }
+    /* Completely hide Streamlit toolbar, header icons, and footer */
+    #MainMenu {visibility: hidden !important;}
+    header {visibility: hidden !important;}
+    footer {visibility: hidden !important;}
+    [data-testid="stToolbar"] {visibility: hidden !important;}
+    [data-testid="stDecoration"] {visibility: hidden !important;}
+    [data-testid="stStatusWidget"] {visibility: hidden !important;}
+    .stAppDeployButton {display: none !important;}
 </style>
 """, unsafe_allow_html=True)
 
