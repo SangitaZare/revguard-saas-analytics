@@ -1,6 +1,7 @@
 # 🛡️ RevGuard: SaaS Customer Retention & Revenue-at-Risk Simulator
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20App-FF4B4B.svg)](https://revguard-saas-analytics.streamlit.app)
+[![Tests](https://img.shields.io/badge/Unit%20Tests-8%2F8%20Passing-brightgreen.svg)]()
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-Advanced%20CTEs%20%26%20Window%20Functions-orange.svg)]()
 [![Database](https://img.shields.io/badge/Database-SQLite%20Indexed-003B57.svg)]()
@@ -157,6 +158,53 @@ python src/data_generator.py
 streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+
+## 📐 Financial Modeling & Analytical Assumptions
+
+To ensure institutional financial rigor, the simulation engine (`src/simulation_engine.py`) models unit economics under the following rules:
+
+1. **Synthetic Telemetry Baseline:**
+   * Enterprise data is realistically simulated via `src/data_generator.py` modeling 1,200 accounts over 24 historical months.
+   * Churn physics exhibit empirical SaaS dynamics: active decay accounts show 50–80% login drop-offs and support CSAT degradation 45–90 days prior to renewal.
+
+2. **Core Financial Equations:**
+   $$\text{Total Campaign Cost} = N_{\text{targeted}} \times \text{Cost per Account}$$
+   $$\text{Expected Saved Accounts} = N_{\text{targeted}} \times \left( \frac{\text{Win-Back Rate \%}}{100} \right)$$
+   $$\text{Gross Revenue Preserved} = \text{Saved Accounts} \times \text{Avg MRR} \times \text{Horizon (Months)}$$
+   $$\text{Net Profit Saved} = \text{Gross Revenue Preserved} - \text{Total Campaign Cost}$$
+   $$\text{Net ROI \%} = \left( \frac{\text{Net Profit Saved}}{\text{Total Campaign Cost}} \right) \times 100$$
+   $$\text{Payback Period (Months)} = \frac{\text{Total Campaign Cost}}{\text{Monthly Revenue Saved}}$$
+   $$\text{Break-Even Win-Back Rate \%} = \left( \frac{\text{Total Campaign Cost}}{N_{\text{targeted}} \times \text{Avg MRR} \times \text{Horizon}} \right) \times 100$$
+
+3. **Edge Case Guarantees:**
+   * If expected win-back is 0%, Net Saved Revenue evaluates strictly to $-\text{Campaign Cost}$ (-100% ROI), and Payback Period safely maps to `None` without division-by-zero errors.
+
+---
+
+## 🧪 Automated Testing & Data Quality
+
+The project includes an automated test suite (`tests/test_analytics.py`) validating relational integrity, SQL outputs, and edge-case simulation math:
+
+```bash
+# Run the automated test suite
+python -m unittest discover tests -v
+```
+
+* **Database Integrity:** Validates foreign key alignments, indexing, and non-empty relational tables.
+* **SQL Correctness:** Confirms non-null MRR growth series, triangular cohort constraints (Month 0 is strictly 100%), and CLV tier ordering.
+* **Math & Edge Cases:** Tests negative ROI handling, 0% win-back rates, and empty target cohorts.
+
+---
+
+## 🔮 Limitations & Production Roadmap
+
+While SQLite and synthetic data provide a self-contained demonstration, scaling this system to an enterprise deployment involves:
+
+1. **Cloud Data Warehouse Migration:** Migrate the relational layer to **Snowflake / Google BigQuery**, utilizing **dbt (data build tool)** for automated daily incremental models and DAG lineage.
+2. **Predictive Machine Learning:** Augment the current rule-based heuristic scoring with an **XGBoost / LightGBM churn classification pipeline** to output probabilistic churn risk with **SHAP values** for feature interpretability.
+3. **Event-Driven Telemetry Ingestion:** Transition from monthly batch aggregation to real-time streaming ingestion via **Kafka or Segment webhooks**.
 
 ---
 
