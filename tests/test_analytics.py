@@ -73,12 +73,19 @@ class TestSaaSAnalytics(unittest.TestCase):
         valid_categories = {"CRITICAL RISK", "HIGH RISK", "MODERATE RISK", "HEALTHY"}
         self.assertTrue(set(df["risk_category"].unique()).issubset(valid_categories))
 
-        # Critical risk accounts must have degraded health or severe login drop
+        # Critical risk accounts must meet at least one threshold from the SQL definition:
+        # health_score < 40, login_drop_pct <= -60, or (login_drop <= -40 AND CSAT <= 2.5), or NULL usage row
         critical_accounts = df[df["risk_category"] == "CRITICAL RISK"]
         for _, acc in critical_accounts.iterrows():
             is_low_health = acc["latest_health_score"] < 40
-            is_severe_drop = acc["login_drop_pct"] <= -50.0
-            self.assertTrue(is_low_health or is_severe_drop)
+            is_severe_login_drop = acc["login_drop_pct"] <= -60.0
+            is_moderate_drop_low_csat = (acc["login_drop_pct"] <= -40.0 and acc["avg_csat"] <= 2.5)
+            is_zero_activity = pd.isna(acc["baseline_logins"])  # LEFT JOIN miss = no usage row
+            self.assertTrue(
+                is_low_health or is_severe_login_drop or is_moderate_drop_low_csat or is_zero_activity,
+                f"Account {acc['account_id']} is CRITICAL RISK but no threshold condition satisfied: "
+                f"health={acc['latest_health_score']}, login_drop={acc['login_drop_pct']}, csat={acc['avg_csat']}"
+            )
 
     def test_customer_lifetime_value_query(self):
         """Validate 04_customer_lifetime_value.sql calculates tier economics."""
@@ -146,6 +153,50 @@ class TestSaaSAnalytics(unittest.TestCase):
         self.assertEqual(results["targeted_count"], 0)
         self.assertEqual(results["total_campaign_cost"], 0.0)
         self.assertEqual(results["roi_percentage"], 0.0)
+
+    def test_risk_category_ordering(self):
+        """Validate that risk category ARR weights are consistent: Critical > High > 0."""
+        df = self.engine.get_churn_risk_accounts()
+        critical = df[df["risk_category"] == "CRITICAL RISK"]
+        high = df[df["risk_category"] == "HIGH RISK"]
+        healthy = df[df["risk_category"] == "HEALTHY"]
+
+        # arr_at_risk must be positive for flagged accounts
+        if not critical.empty:
+            self.assertTrue((critical["arr_at_risk"] > 0).all(), "Critical accounts should have arr_at_risk > 0")
+        if not high.empty:
+            self.assertTrue((high["arr_at_risk"] > 0).all(), "High risk accounts should have arr_at_risk > 0")
+        # Healthy accounts must have zero arr_at_risk
+        if not healthy.empty:
+            self.assertTrue((healthy["arr_at_risk"] == 0).all(), "Healthy accounts should have arr_at_risk = 0")
+
+        # Critical ARR weight (65%) must exceed High weight (35%) for same MRR
+        # Verify by checking avg arr_at_risk / current_arr ratios
+        if not critical.empty and not high.empty:
+            critical_weight = (critical["arr_at_risk"] / critical["current_arr"]).mean()
+            high_weight = (high["arr_at_risk"] / high["current_arr"]).mean()
+            self.assertAlmostEqual(critical_weight, 0.65, delta=0.05)
+            self.assertAlmostEqual(high_weight, 0.35, delta=0.05)
+
+    def test_backtest_model_metrics_sanity(self):
+        """Validate backtest returns plausible metrics on the synthetic dataset."""
+        from src.backtest_model import run_churn_early_warning_backtest
+        results = run_churn_early_warning_backtest()
+
+        # Must evaluate a meaningful number of accounts
+        self.assertGreater(results["total_evaluated_accounts"], 500)
+
+        # Recall must be high (model is tuned for this)
+        self.assertGreater(results["recall_pct"], 80.0, "Recall should exceed 80%")
+
+        # Precision should beat the naïve baseline (flag everyone = ~25% precision on this dataset)
+        self.assertGreater(results["precision_pct"], 40.0, "Precision should beat the ~25% naïve baseline")
+
+        # Confusion matrix must be internally consistent
+        total = (results["true_positives"] + results["false_positives"] +
+                 results["false_negatives"] + results["true_negatives"])
+        self.assertEqual(total, results["total_evaluated_accounts"])
+
 
 if __name__ == "__main__":
     unittest.main()

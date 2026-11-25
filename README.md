@@ -7,9 +7,9 @@
 [![Database](https://img.shields.io/badge/Database-SQLite%20Indexed-003B57.svg)]()
 [![Analytics](https://img.shields.io/badge/Domain-B2B%20SaaS%20%26%20Retention-purple.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Business Impact](https://img.shields.io/badge/Business%20Impact-%241.4M%20ARR%20Identified-success.svg)]()
+[![Business Impact](https://img.shields.io/badge/Business%20Impact-%241.0M%20ARR%20at%20Risk-success.svg)]()
 
-> **An end-to-end B2B SaaS analytics intelligence system bridging production SQL telemetry with executive financial decision-making.** Identifies customer churn risk using leading behavioral indicators and simulates the Net ROI of targeted retention campaigns in real time.
+> **An end-to-end B2B SaaS analytics intelligence system bridging analytical SQL telemetry with executive financial decision-making.** Identifies customer churn risk using leading behavioral indicators and simulates the Net ROI of targeted retention campaigns in real time.
 
 🔗 **Live Interactive Dashboard:** [https://revguard-saas-analytics.streamlit.app](https://revguard-saas-analytics.streamlit.app)
 
@@ -33,8 +33,8 @@ In high-growth B2B SaaS companies, **customer churn is the silent killer of Annu
 > ℹ️ **Dataset Architecture & Synthetic Telemetry Disclosure:**  
 > To model enterprise-scale SaaS telemetry without violating customer confidentiality or GDPR regulations, the 1,200 accounts and 14,900+ monthly usage records are synthesized via [`src/data_generator.py`](src/data_generator.py). The generation engine embeds empirical B2B dynamics: tiered contract pricing, natural cohort attrition, login degradation curves, and support CSAT escalations.
 
-* **Target Organization:** A modeled B2B SaaS enterprise generating **$8.72M in ARR** across 901 active enterprise, professional, and starter accounts.
-* **The Vulnerability:** 171 accounts exhibited severe behavioral degradation, representing **$1,676,386 in gross exposed ARR** ($1,017,299 probability-weighted ARR at risk across 149 Critical and 22 High-Risk accounts).
+* **Target Organization:** A modeled B2B SaaS enterprise generating **~$8.72M in ARR** across active enterprise, professional, and starter accounts.
+* **The Vulnerability:** Active accounts exhibiting severe behavioral degradation represent **$1.0M+ in probability-weighted ARR at risk** (Critical Risk: 65% observed churn rate × gross ARR; High Risk: 35% observed churn rate × gross ARR — both rates calibrated from the historical backtest in `src/backtest_model.py`).
 * **The Solution:** Built **RevGuard**, an early-warning churn detection engine and interactive financial simulator that models proactive customer success interventions to project Net ROI, payback periods, and break-even points before committing marketing spend.
 
 ---
@@ -63,15 +63,28 @@ From the SQL cohort retention analysis and behavioral telemetry, four high-impac
 
 ## 🔬 Churn Early-Warning Model Validation (Backtest)
 
-To validate whether the composite early-warning indicators (login drops, health score degradation, and low CSAT) reliably identify churn before cancellation, a retrospective backtest was executed against all 1,200 historical accounts via [`src/backtest_model.py`](src/backtest_model.py):
+To validate whether the composite early-warning indicators (login drops, health score degradation, and low CSAT) reliably identify churn before cancellation, a retrospective backtest was executed against all 1,200 historical accounts via [`src/backtest_model.py`](src/backtest_model.py).
 
-| Validation Metric | Score | Commercial Interpretation |
-| :--- | :---: | :--- |
-| **Recall (Sensitivity)** | **94.7%** | Successfully identified 285 out of 301 historical churn events 45–60 days in advance. |
-| **Specificity** | **83.4%** | Correctly identified 750 out of 899 healthy accounts without raising false alarms. |
-| **Overall Accuracy** | **86.2%** | Overall correct classification rate across the entire 1,200 account lifecycle. |
-| **Precision** | **65.7%** | When an account is flagged, there is a 66% probability of churn if left untreated. |
-| **F1-Score** | **77.6%** | Balanced harmonic mean of precision and recall. |
+> **⚠️ Methodology Transparency:** The backtest evaluates the **penultimate month of each account's tenure** (i.e., the month immediately before churn or the last observed month for active accounts). This is a **~1-month behavioral look-back**, not a 60-day window. The model was not tuned on a held-out test set — the thresholds are analytically derived, not grid-searched, so there is no data leakage risk, but results should be treated as illustrative on this synthetic dataset.
+
+### Confusion Matrix
+
+| | **Predicted: Churn** | **Predicted: Healthy** |
+| :--- | :---: | :---: |
+| **Actual: Churned** | TP = 285 | FN = 16 |
+| **Actual: Healthy** | FP = 149 | TN = 750 |
+
+### Performance vs. Naïve Baseline
+
+| Metric | **RevGuard Model** | **Naïve Baseline** *(flag everyone)* | **Improvement** |
+| :--- | :---: | :---: | :---: |
+| **Recall (Sensitivity)** | **94.7%** | 100% | — *(baseline maximizes recall at the cost of all else)* |
+| **Precision** | **65.7%** | ~25.1% | **~2.6× lift** |
+| **Specificity** | **83.4%** | 0% | Avoids overwhelming CSM with 750 false alarms |
+| **F1-Score** | **77.6%** | 40.1% | **+37.5 points** |
+| **Accuracy** | **86.2%** | ~25.1% | — |
+
+> *Naïve baseline precision is estimated from the dataset's ~25% historical churn rate. A model that flags every account as at-risk achieves 100% recall but ~25% precision — RevGuard delivers **2.6× the precision** while maintaining 94.7% recall.*
 
 > *Note on Precision vs. Recall:* In B2B SaaS retention, **high recall (94.7%) is deliberately prioritized over precision**. The cost of a false positive (a proactive check-in call to an enterprise client) is negligible (~$50), whereas the cost of a false negative (losing an unflagged $30k ARR Enterprise client) is catastrophic.
 
@@ -139,7 +152,7 @@ Simulating retention interventions across varying win-back success rates on the 
 
 1. **Revenue Run-Rate & Trajectory:** What is our current MRR, ARR, and month-over-month growth rate?
 2. **Cohort Health:** At which specific month of customer tenure do we experience the steepest drop-off?
-3. **Leading Churn Indicators:** Can we detect churn 60 days *before* cancellation through login velocity and support ticket escalation?
+3. **Leading Churn Indicators:** Can we detect churn *before* cancellation through login velocity and support ticket escalation using a 30-day behavioral window?
 4. **Financial Simulation:** If leadership invests \$50,000 in dedicated CSM outreach, how many accounts must be saved to break even, and what is the expected Net Profit?
 
 ---
@@ -258,7 +271,21 @@ python -m unittest discover tests -v
 
 ---
 
-## 🔮 Limitations & Production Roadmap
+## ⚠️ Data, Limitations & Assumptions
+
+> This project is built on **100% synthetic data** generated by [`src/data_generator.py`](src/data_generator.py). No real customer data was used. All KPI figures, cohort metrics, and ARR numbers are illustrative outputs of the synthetic dataset and should not be interpreted as real business results.
+
+| Limitation | Detail |
+| :--- | :--- |
+| **Synthetic data** | 1,200 accounts and 14,900+ usage rows are procedurally generated with realistic SaaS dynamics (tiered pricing, login decay, CSAT degradation). Real-world data will exhibit different distributions. |
+| **Backtest look-back window** | The backtest evaluates the **penultimate month of each account's lifecycle** (~1-month behavioral window before end of tenure). |
+| **No train/test split** | The rule-based thresholds are analytically derived (not grid-searched), so there is no overfitting risk — but performance on real data may differ substantially. |
+| **Probability weights (65% / 35%)** | Critical and High Risk churn probability weights are calibrated from the synthetic backtest. On real data, recalibrate per tier from observed historical churn rates. |
+| **SQLite scope** | SQLite provides a self-contained demo. Production deployment would migrate to Snowflake / BigQuery with dbt for incremental models. |
+
+---
+
+## 🔮 Production Roadmap
 
 While SQLite and synthetic data provide a self-contained demonstration, scaling this system to an enterprise deployment involves:
 
