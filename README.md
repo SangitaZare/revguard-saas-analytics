@@ -126,16 +126,3 @@ python src/data_generator.py
 streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
-
----
-
-## 💼 Resume & Interview Pitch
-
-### Resume Bullet Points:
-> * **RevGuard: SaaS Customer Retention & Revenue-at-Risk Engine | SQL, Python, Streamlit**
->   * Engineered an end-to-end B2B SaaS analytics engine analyzing 1,200+ accounts and 14,000+ usage records using advanced SQL (CTEs, Window Functions) and SQLite.
->   * Uncovered \$1.43M in ARR at risk (16.5% exposure) by designing a multi-factor churn early-warning model based on login decay and support CSAT trends.
->   * Built an interactive Streamlit executive app featuring a What-If Campaign Simulator that modeled dynamic intervention costs, projecting a 3.4x Net ROI on retention budgets.
-
-### 30-Second Interview Pitch:
-> *"Most churn projects only look backward at who already canceled. For RevGuard, I wanted to build an executive decision tool that bridges data with dollars. I used advanced SQL window functions and cohort analysis to identify $1.4M in vulnerable ARR, and then built an interactive financial simulator in Streamlit that allows leadership to test retention campaign budgets, win-back rates, and calculate net ROI in real-time."*
