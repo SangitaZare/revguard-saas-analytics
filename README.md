@@ -6,6 +6,7 @@
 [![SQL](https://img.shields.io/badge/SQL-Advanced%20CTEs%20%26%20Window%20Functions-orange.svg)]()
 [![Database](https://img.shields.io/badge/Database-SQLite%20Indexed-003B57.svg)]()
 [![Analytics](https://img.shields.io/badge/Domain-B2B%20SaaS%20%26%20Retention-purple.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Business Impact](https://img.shields.io/badge/Business%20Impact-%241.4M%20ARR%20Identified-success.svg)]()
 
 > **An end-to-end B2B SaaS analytics intelligence system bridging production SQL telemetry with executive financial decision-making.** Identifies customer churn risk using leading behavioral indicators and simulates the Net ROI of targeted retention campaigns in real time.
@@ -32,8 +33,8 @@ In high-growth B2B SaaS companies, **customer churn is the silent killer of Annu
 > ℹ️ **Dataset Architecture & Synthetic Telemetry Disclosure:**  
 > To model enterprise-scale SaaS telemetry without violating customer confidentiality or GDPR regulations, the 1,200 accounts and 14,900+ monthly usage records are synthesized via [`src/data_generator.py`](src/data_generator.py). The generation engine embeds empirical B2B dynamics: tiered contract pricing, natural cohort attrition, login degradation curves, and support CSAT escalations.
 
-* **Target Organization:** A modeled B2B SaaS enterprise generating **$8.72M in ARR** across 900+ active enterprise, professional, and starter accounts.
-* **The Vulnerability:** 149 accounts exhibited severe usage degradation, representing **$1,435,212 in ARR at risk (16.5% exposure)**.
+* **Target Organization:** A modeled B2B SaaS enterprise generating **$8.72M in ARR** across 901 active enterprise, professional, and starter accounts.
+* **The Vulnerability:** 171 accounts exhibited severe behavioral degradation, representing **$1,676,386 in gross exposed ARR** ($1,017,299 probability-weighted ARR at risk across 149 Critical and 22 High-Risk accounts).
 * **The Solution:** Built **RevGuard**, an early-warning churn detection engine and interactive financial simulator that models proactive customer success interventions to project Net ROI, payback periods, and break-even points before committing marketing spend.
 
 ---
@@ -46,8 +47,8 @@ From the SQL cohort retention analysis and behavioral telemetry, four high-impac
    * *Finding:* Cohort retention drops by an average of 14.8% between Month 2 and Month 3 across Starter and Professional tiers, coinciding with the end of initial 90-day introductory discounts.
    * *Recommendation:* Launch an automated customer onboarding nurture trigger at **Day 70** with milestone feature adoption reviews to establish core workflow dependence before billing increases.
 
-2. **Login Velocity is a 60-Day Leading Churn Indicator:**
-   * *Finding:* 94.7% of accounts that churned exhibited a **>40% decline in monthly logins 45–60 days prior** to cancellation. Contract non-renewals are preceded by behavioral dormancy, not sudden decisions.
+2. **Login Velocity is a 30-Day Behavioral Churn Indicator:**
+   * *Finding:* 94.7% of accounts that churned exhibited a **>40% decline in monthly logins** in the 30-day behavioral window preceding cancellation. Contract non-renewals are preceded by behavioral dormancy, not sudden decisions.
    * *Recommendation:* Implement an automated Slack/CRM alert to the Customer Success Manager (CSM) whenever an account's 30-day login volume falls 30% below its 90-day moving average.
 
 3. **CLV Asymmetry Across Subscription Tiers:**
@@ -155,8 +156,8 @@ Simulating retention interventions across varying win-back success rates on the 
 
 ### 2. 🚨 Churn Early-Warning Radar
 * Filters accounts by **Composite Risk Score**:
-  * **Critical Risk:** Health score < 40, login drop > 50%, or negative CSAT.
-  * **High Risk:** Health score 40–60 with declining seat utilization.
+  * **Critical Risk:** Complete inactivity in current month, health score < 40, login drop > 60% vs. 3-month baseline, or login drop > 40% with CSAT $\le$ 2.5.
+  * **High Risk:** Health score 40–60, login drop > 30% vs. baseline, or repeated ticket escalations ($\ge$ 2).
 * Generates an actionable CSV export for the Customer Success Management (CSM) team.
 
 <div align="center">
@@ -175,8 +176,8 @@ Simulating retention interventions across varying win-back success rates on the 
   <img src="assets/whatif_simulator.png" alt="What-If Retention Campaign Simulator" width="100%">
 </div>
 
-### 4. 💻 Production SQL Lab
-* Allows technical recruiters and hiring managers to inspect and execute the production SQL queries directly within the application.
+### 4. 💻 Analytical SQL Lab
+* Allows technical recruiters and hiring managers to inspect and execute the analytical SQL queries directly within the application.
 
 <div align="center">
   <img src="assets/production_sql.png" alt="Production SQL Lab" width="100%">

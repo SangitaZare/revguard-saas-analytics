@@ -59,7 +59,8 @@ class AnalyticsEngine:
             high_risk = risk_df[risk_df["risk_category"] == "HIGH RISK"]
 
             total_arr = latest_month_mrr["current_mrr"] * 12
-            revenue_at_risk_arr = critical_risk["arr_at_risk"].sum() + (high_risk["arr_at_risk"].sum() * 0.5)
+            revenue_at_risk_arr = float(risk_df["arr_at_risk"].sum())
+            gross_exposed_arr = float(risk_df["gross_arr_exposed"].sum())
 
             return {
                 "current_mrr": float(latest_month_mrr["current_mrr"]),
@@ -68,6 +69,7 @@ class AnalyticsEngine:
                 "overall_churn_rate": round((churn_stats["churned"] / churn_stats["total"]) * 100, 1),
                 "critical_risk_accounts": len(critical_risk),
                 "high_risk_accounts": len(high_risk),
-                "arr_at_risk": round(float(revenue_at_risk_arr), 2),
+                "arr_at_risk": round(revenue_at_risk_arr, 2),
+                "gross_exposed_arr": round(gross_exposed_arr, 2),
                 "risk_exposure_pct": round((revenue_at_risk_arr / total_arr) * 100, 1) if total_arr > 0 else 0.0
             }
