@@ -1,13 +1,15 @@
 # 🛡️ RevGuard: SaaS Customer Retention & Revenue-at-Risk Simulator
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20App-FF4B4B.svg)](https://revguard-saas-analytics.streamlit.app)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-Advanced%20CTEs%20%26%20Window%20Functions-orange.svg)]()
 [![Database](https://img.shields.io/badge/Database-SQLite%20Indexed-003B57.svg)]()
-[![Streamlit](https://img.shields.io/badge/Streamlit-Interactive%20App-FF4B4B.svg)](https://streamlit.io/)
 [![Analytics](https://img.shields.io/badge/Domain-B2B%20SaaS%20%26%20Retention-purple.svg)]()
 [![Business Impact](https://img.shields.io/badge/Business%20Impact-%241.4M%20ARR%20Identified-success.svg)]()
 
 > **An end-to-end B2B SaaS analytics intelligence system bridging production SQL telemetry with executive financial decision-making.** Identifies customer churn risk using leading behavioral indicators and simulates the Net ROI of targeted retention campaigns in real time.
+
+🔗 **Live Interactive Dashboard:** [https://revguard-saas-analytics.streamlit.app](https://revguard-saas-analytics.streamlit.app)
 
 `#data-analytics` `#sql` `#business-intelligence` `#saas-metrics` `#customer-retention` `#cohort-analysis` `#financial-modeling` `#streamlit` `#python`
 
