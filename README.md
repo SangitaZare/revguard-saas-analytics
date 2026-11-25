@@ -89,11 +89,19 @@ In high-growth B2B SaaS companies, **customer churn is the silent killer of Annu
 * Visualizes month-over-month customer retention and Net Dollar Retention (NDR) from Month 0 to Month 12.
 * Pinpoints Month 2–3 as the primary friction window (promotional expiry).
 
+<div align="center">
+  <img src="assets/cohort_heatmap.png" alt="Triangular Cohort Retention Heatmap" width="100%">
+</div>
+
 ### 2. 🚨 Churn Early-Warning Radar
 * Filters accounts by **Composite Risk Score**:
   * **Critical Risk:** Health score < 40, login drop > 50%, or negative CSAT.
   * **High Risk:** Health score 40–60 with declining seat utilization.
 * Generates an actionable CSV export for the Customer Success Management (CSM) team.
+
+<div align="center">
+  <img src="assets/churn_radar.png" alt="Churn Early-Warning Radar" width="100%">
+</div>
 
 ### 3. 🎯 What-If Retention Campaign Simulator
 * Allows executives to adjust:
@@ -103,8 +111,16 @@ In high-growth B2B SaaS companies, **customer churn is the silent killer of Annu
   * **Expected Win-Back Rate:** 5% to 60%.
 * Outputs: **Total Budget**, **Gross ARR Preserved**, **Net Saved Revenue**, **ROI %**, and **Payback Period in Months**.
 
+<div align="center">
+  <img src="assets/whatif_simulator.png" alt="What-If Retention Campaign Simulator" width="100%">
+</div>
+
 ### 4. 💻 Production SQL Lab
 * Allows technical recruiters and hiring managers to inspect and execute the production SQL queries directly within the application.
+
+<div align="center">
+  <img src="assets/production_sql.png" alt="Production SQL Lab" width="100%">
+</div>
 
 ---
 
