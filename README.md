@@ -107,7 +107,7 @@ All queries are located in the [`sql/`](sql/) directory:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/revguard-saas-analytics.git
+git clone https://github.com/SangitaZare/revguard-saas-analytics.git
 cd revguard-saas-analytics
 ```
 
@@ -126,3 +126,11 @@ python src/data_generator.py
 streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+---
+
+## 👤 Author
+
+**Sangita Zare**
+* GitHub: [@SangitaZare](https://github.com/SangitaZare)
+* Focus: Data Analytics, Advanced SQL, Python, Business Intelligence & SaaS Economics
