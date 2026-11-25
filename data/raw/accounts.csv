@@ -1,0 +1,1201 @@
+account_id,company_name,industry,tier,base_mrr,contract_type,signup_date,churn_date,status,is_active_at_risk
+ACC-00001,Pulse Systems 769,E-Commerce / Retail,Starter,149,Monthly,2025-06-17,2025-09-22,Churned,False
+ACC-00002,Nexus Scale 442,Fintech,Enterprise,2499,Monthly,2025-02-04,,Active,False
+ACC-00003,Apex Media 213,Cybersecurity,Professional,599,Annual,2026-05-13,,Active,False
+ACC-00004,Strata Systems 787,HR Tech,Professional,599,Monthly,2026-01-07,,Active,True
+ACC-00005,Omni Labs 104,EdTech,Starter,149,Monthly,2025-11-03,,Active,False
+ACC-00006,Cloud Works 480,DevOps & Cloud,Starter,149,Monthly,2025-11-23,2026-06-06,Churned,False
+ACC-00007,Synthetix Scale 206,Cybersecurity,Starter,149,Monthly,2024-12-17,,Active,False
+ACC-00008,Nexus Logistics 897,Fintech,Enterprise,2499,Annual,2025-08-12,,Active,False
+ACC-00009,Vanguard Analytics 373,Healthcare Tech,Professional,599,Annual,2025-08-01,,Active,False
+ACC-00010,Nexus Scale 660,Healthcare Tech,Professional,599,Annual,2025-07-09,2026-03-05,Churned,False
+ACC-00011,Strata Capital 714,DevOps & Cloud,Starter,149,Monthly,2025-09-29,,Active,False
+ACC-00012,Hyper Systems 834,E-Commerce / Retail,Enterprise,2499,Annual,2025-08-02,2026-07-03,Churned,False
+ACC-00013,Omni Logistics 681,EdTech,Professional,599,Annual,2026-08-21,,Active,False
+ACC-00014,Hyper Works 584,DevOps & Cloud,Starter,149,Annual,2026-06-22,,Active,False
+ACC-00015,Synthetix Logistics 151,DevOps & Cloud,Starter,149,Annual,2025-02-02,,Active,False
+ACC-00016,Sync Capital 173,HR Tech,Starter,149,Annual,2026-01-07,,Active,False
+ACC-00017,BlueFin Media 267,DevOps & Cloud,Starter,149,Monthly,2025-02-26,,Active,False
+ACC-00018,Strata Capital 358,Fintech,Professional,599,Annual,2026-01-20,2026-03-06,Churned,False
+ACC-00019,Strata Media 790,Healthcare Tech,Starter,149,Annual,2025-02-17,,Active,False
+ACC-00020,Data Technologies 392,HR Tech,Starter,149,Monthly,2026-05-07,,Active,False
+ACC-00021,Apex Scale 341,EdTech,Professional,599,Monthly,2025-02-23,,Active,False
+ACC-00022,Aero Logistics 69,Healthcare Tech,Starter,149,Annual,2025-01-20,2025-11-09,Churned,False
+ACC-00023,Nexus Media 794,Healthcare Tech,Starter,149,Monthly,2026-03-02,,Active,True
+ACC-00024,Peak Logistics 961,DevOps & Cloud,Starter,149,Annual,2025-05-25,,Active,False
+ACC-00025,Synthetix Solutions 931,DevOps & Cloud,Professional,599,Annual,2025-03-04,,Active,True
+ACC-00026,Apex Scale 577,Healthcare Tech,Professional,599,Annual,2025-06-14,2026-07-26,Churned,False
+ACC-00027,Cloud Logistics 79,Fintech,Starter,149,Annual,2025-01-12,,Active,False
+ACC-00028,Elevate Logistics 562,Healthcare Tech,Professional,599,Annual,2026-06-08,,Active,False
+ACC-00029,Elevate Networks 204,Fintech,Professional,599,Monthly,2026-01-16,,Active,False
+ACC-00030,Cloud Capital 679,Cybersecurity,Starter,149,Monthly,2025-01-02,,Active,False
+ACC-00031,Pulse Logistics 206,Healthcare Tech,Professional,599,Annual,2026-02-03,2026-05-05,Churned,False
+ACC-00032,Strata Solutions 265,HR Tech,Starter,149,Monthly,2026-01-28,,Active,False
+ACC-00033,Pulse Systems 677,DevOps & Cloud,Starter,149,Monthly,2025-02-04,,Active,False
+ACC-00034,Vanguard Networks 507,EdTech,Enterprise,2499,Monthly,2025-12-16,,Active,True
+ACC-00035,Apex Networks 281,HR Tech,Enterprise,2499,Annual,2025-08-20,,Active,False
+ACC-00036,Elevate Technologies 204,E-Commerce / Retail,Professional,599,Monthly,2024-12-30,,Active,False
+ACC-00037,Omni Systems 61,DevOps & Cloud,Starter,149,Annual,2026-03-30,,Active,False
+ACC-00038,Cloud Media 92,HR Tech,Starter,149,Monthly,2025-01-10,,Active,False
+ACC-00039,Hyper Networks 132,DevOps & Cloud,Professional,599,Monthly,2026-06-16,,Active,False
+ACC-00040,Peak Capital 607,DevOps & Cloud,Starter,149,Annual,2025-09-20,,Active,False
+ACC-00041,Omni Logistics 281,EdTech,Starter,149,Monthly,2026-08-23,2026-10-17,Churned,False
+ACC-00042,Nexus Systems 479,DevOps & Cloud,Professional,599,Annual,2025-02-11,2025-07-15,Churned,False
+ACC-00043,Strata Technologies 965,E-Commerce / Retail,Starter,149,Monthly,2025-07-09,,Active,True
+ACC-00044,Aero Scale 836,Cybersecurity,Enterprise,2499,Annual,2024-11-09,,Active,False
+ACC-00045,Pulse Technologies 280,Fintech,Starter,149,Monthly,2026-05-21,2026-08-10,Churned,False
+ACC-00046,Data Works 361,Healthcare Tech,Professional,599,Annual,2026-08-12,,Active,False
+ACC-00047,Strata Systems 104,Cybersecurity,Starter,149,Annual,2025-08-11,2026-03-14,Churned,False
+ACC-00048,Sync Capital 278,Healthcare Tech,Professional,599,Annual,2026-01-27,,Active,False
+ACC-00049,Apex Labs 87,Cybersecurity,Professional,599,Monthly,2026-05-13,2026-09-29,Churned,False
+ACC-00050,Sync Networks 140,Fintech,Starter,149,Annual,2025-11-09,,Active,False
+ACC-00051,Cloud Analytics 225,Cybersecurity,Enterprise,2499,Monthly,2025-02-14,,Active,False
+ACC-00052,Peak Scale 777,Healthcare Tech,Professional,599,Monthly,2025-04-16,,Active,False
+ACC-00053,Peak Systems 193,Cybersecurity,Enterprise,2499,Annual,2025-12-27,,Active,False
+ACC-00054,Hyper Digital 173,HR Tech,Enterprise,2499,Annual,2025-02-19,,Active,True
+ACC-00055,Elevate Logistics 214,HR Tech,Professional,599,Annual,2025-10-25,,Active,False
+ACC-00056,Hyper Logistics 34,Cybersecurity,Enterprise,2499,Monthly,2025-12-14,,Active,False
+ACC-00057,Strata Analytics 666,DevOps & Cloud,Starter,149,Annual,2026-05-04,2026-06-25,Churned,False
+ACC-00058,Pulse Digital 192,DevOps & Cloud,Starter,149,Annual,2024-12-10,2025-09-03,Churned,False
+ACC-00059,Synthetix Works 815,E-Commerce / Retail,Starter,149,Annual,2026-07-14,,Active,True
+ACC-00060,Data Digital 55,Cybersecurity,Starter,149,Annual,2024-11-02,,Active,False
+ACC-00061,Data Analytics 451,Fintech,Starter,149,Annual,2025-10-05,,Active,False
+ACC-00062,Pulse Works 931,E-Commerce / Retail,Starter,149,Annual,2025-09-13,,Active,False
+ACC-00063,Aero Media 140,Healthcare Tech,Professional,599,Annual,2025-11-24,,Active,False
+ACC-00064,Aero Networks 571,HR Tech,Starter,149,Monthly,2025-09-08,2026-05-31,Churned,False
+ACC-00065,Omni Solutions 462,EdTech,Starter,149,Annual,2025-06-07,,Active,False
+ACC-00066,Vanguard Capital 96,E-Commerce / Retail,Professional,599,Annual,2026-08-11,,Active,True
+ACC-00067,Hyper Capital 327,Healthcare Tech,Starter,149,Monthly,2025-03-31,2025-09-17,Churned,False
+ACC-00068,Elevate Scale 880,HR Tech,Professional,599,Monthly,2026-02-10,,Active,False
+ACC-00069,Data Works 723,EdTech,Starter,149,Annual,2025-12-15,2026-01-31,Churned,False
+ACC-00070,Pulse Networks 234,Healthcare Tech,Enterprise,2499,Annual,2026-04-15,,Active,False
+ACC-00071,Pulse Solutions 146,HR Tech,Professional,599,Annual,2026-04-28,,Active,False
+ACC-00072,BlueFin Scale 844,Cybersecurity,Starter,149,Annual,2026-01-11,,Active,False
+ACC-00073,Vanguard Works 892,EdTech,Starter,149,Annual,2025-07-24,,Active,False
+ACC-00074,Strata Media 506,Cybersecurity,Professional,599,Monthly,2025-08-09,,Active,False
+ACC-00075,Hyper Digital 353,E-Commerce / Retail,Professional,599,Annual,2025-01-22,2025-07-04,Churned,False
+ACC-00076,Quantum Works 166,Cybersecurity,Professional,599,Monthly,2025-01-05,,Active,False
+ACC-00077,BlueFin Networks 73,Healthcare Tech,Professional,599,Annual,2025-12-04,,Active,False
+ACC-00078,Apex Scale 399,EdTech,Starter,149,Monthly,2025-10-27,2026-06-28,Churned,False
+ACC-00079,Peak Media 775,Cybersecurity,Starter,149,Annual,2026-07-11,,Active,False
+ACC-00080,Strata Networks 507,Fintech,Starter,149,Annual,2025-10-11,,Active,False
+ACC-00081,Vanguard Solutions 951,Healthcare Tech,Enterprise,2499,Annual,2026-05-01,2026-09-23,Churned,False
+ACC-00082,Apex Labs 668,EdTech,Professional,599,Monthly,2026-02-16,2026-06-07,Churned,False
+ACC-00083,Quantum Analytics 226,EdTech,Starter,149,Annual,2025-10-12,,Active,False
+ACC-00084,Peak Digital 864,Fintech,Starter,149,Annual,2024-11-20,,Active,True
+ACC-00085,Synthetix Logistics 675,Fintech,Starter,149,Annual,2024-12-12,,Active,False
+ACC-00086,Data Systems 646,Healthcare Tech,Starter,149,Monthly,2025-03-10,,Active,True
+ACC-00087,Data Solutions 726,E-Commerce / Retail,Professional,599,Annual,2025-04-21,,Active,False
+ACC-00088,Pulse Technologies 997,E-Commerce / Retail,Professional,599,Monthly,2026-06-16,2026-09-08,Churned,False
+ACC-00089,Quantum Networks 974,Cybersecurity,Enterprise,2499,Monthly,2025-01-17,,Active,False
+ACC-00090,Hyper Labs 723,HR Tech,Professional,599,Annual,2026-07-08,,Active,False
+ACC-00091,Cloud Analytics 555,EdTech,Starter,149,Annual,2025-11-15,2026-06-22,Churned,False
+ACC-00092,Apex Networks 852,EdTech,Professional,599,Monthly,2026-01-18,,Active,False
+ACC-00093,BlueFin Works 166,EdTech,Professional,599,Monthly,2026-04-19,,Active,False
+ACC-00094,Elevate Solutions 456,HR Tech,Professional,599,Annual,2026-06-30,,Active,False
+ACC-00095,Nexus Digital 912,EdTech,Professional,599,Monthly,2026-02-19,,Active,False
+ACC-00096,Omni Systems 516,HR Tech,Professional,599,Annual,2025-05-06,,Active,False
+ACC-00097,Strata Analytics 296,DevOps & Cloud,Professional,599,Annual,2025-08-10,,Active,False
+ACC-00098,Data Labs 257,Cybersecurity,Starter,149,Annual,2026-03-16,,Active,False
+ACC-00099,Elevate Capital 738,EdTech,Starter,149,Annual,2024-11-18,2025-04-25,Churned,False
+ACC-00100,Quantum Works 259,E-Commerce / Retail,Starter,149,Annual,2026-06-19,,Active,False
+ACC-00101,Synthetix Networks 773,DevOps & Cloud,Starter,149,Annual,2025-10-27,,Active,False
+ACC-00102,Strata Logistics 133,Cybersecurity,Professional,599,Monthly,2025-09-20,2026-08-05,Churned,False
+ACC-00103,Vanguard Logistics 231,Cybersecurity,Starter,149,Annual,2025-08-11,,Active,False
+ACC-00104,Aero Labs 862,Healthcare Tech,Professional,599,Annual,2025-06-21,,Active,False
+ACC-00105,Sync Digital 56,Fintech,Enterprise,2499,Annual,2025-08-27,,Active,True
+ACC-00106,Elevate Labs 903,Fintech,Starter,149,Annual,2025-08-19,,Active,False
+ACC-00107,Vanguard Systems 268,HR Tech,Starter,149,Annual,2025-02-25,,Active,False
+ACC-00108,Nexus Scale 654,Cybersecurity,Professional,599,Monthly,2025-04-05,2026-03-04,Churned,False
+ACC-00109,Aero Labs 264,Fintech,Starter,149,Annual,2026-01-01,,Active,False
+ACC-00110,Hyper Media 399,EdTech,Starter,149,Annual,2025-09-01,,Active,False
+ACC-00111,Aero Scale 645,Fintech,Starter,149,Annual,2025-02-10,,Active,False
+ACC-00112,Data Digital 686,Fintech,Starter,149,Monthly,2025-07-04,2025-09-25,Churned,False
+ACC-00113,Vanguard Systems 428,EdTech,Enterprise,2499,Annual,2026-07-02,,Active,True
+ACC-00114,Aero Works 299,Cybersecurity,Professional,599,Annual,2025-01-12,,Active,False
+ACC-00115,Data Networks 127,DevOps & Cloud,Professional,599,Monthly,2026-08-26,2026-10-18,Churned,False
+ACC-00116,Sync Labs 71,Healthcare Tech,Enterprise,2499,Annual,2026-07-03,,Active,False
+ACC-00117,Aero Solutions 137,EdTech,Professional,599,Annual,2025-09-08,,Active,False
+ACC-00118,Elevate Solutions 92,DevOps & Cloud,Starter,149,Monthly,2026-01-17,,Active,False
+ACC-00119,Apex Labs 244,Cybersecurity,Enterprise,2499,Annual,2026-06-25,,Active,False
+ACC-00120,Strata Scale 51,HR Tech,Professional,599,Monthly,2026-02-25,,Active,False
+ACC-00121,Strata Technologies 609,EdTech,Professional,599,Annual,2026-03-19,,Active,False
+ACC-00122,Peak Analytics 338,Cybersecurity,Enterprise,2499,Monthly,2025-04-14,,Active,False
+ACC-00123,Aero Capital 977,EdTech,Starter,149,Annual,2024-12-08,,Active,False
+ACC-00124,Omni Labs 801,EdTech,Starter,149,Annual,2024-11-02,,Active,False
+ACC-00125,Peak Systems 202,DevOps & Cloud,Starter,149,Annual,2026-07-31,,Active,False
+ACC-00126,Cloud Logistics 283,DevOps & Cloud,Starter,149,Monthly,2025-08-22,,Active,False
+ACC-00127,Pulse Systems 655,DevOps & Cloud,Professional,599,Monthly,2025-04-12,,Active,True
+ACC-00128,Peak Labs 240,HR Tech,Enterprise,2499,Monthly,2026-02-16,,Active,False
+ACC-00129,Sync Solutions 965,Cybersecurity,Starter,149,Annual,2026-04-06,,Active,False
+ACC-00130,Elevate Solutions 259,EdTech,Professional,599,Annual,2025-03-29,,Active,False
+ACC-00131,Sync Labs 292,HR Tech,Starter,149,Annual,2025-10-15,,Active,False
+ACC-00132,Apex Digital 753,E-Commerce / Retail,Starter,149,Annual,2026-06-17,,Active,False
+ACC-00133,Sync Solutions 561,EdTech,Starter,149,Annual,2025-10-07,,Active,False
+ACC-00134,BlueFin Analytics 900,Healthcare Tech,Starter,149,Annual,2025-07-03,,Active,False
+ACC-00135,Peak Systems 335,Cybersecurity,Enterprise,2499,Annual,2025-11-26,,Active,False
+ACC-00136,Sync Solutions 997,Fintech,Starter,149,Monthly,2026-03-30,,Active,False
+ACC-00137,Pulse Solutions 112,DevOps & Cloud,Professional,599,Annual,2024-11-16,,Active,False
+ACC-00138,Sync Labs 490,HR Tech,Professional,599,Annual,2025-10-13,,Active,False
+ACC-00139,Nexus Analytics 882,Cybersecurity,Starter,149,Annual,2025-11-25,,Active,False
+ACC-00140,Elevate Media 46,DevOps & Cloud,Enterprise,2499,Monthly,2025-06-29,,Active,False
+ACC-00141,Hyper Works 102,EdTech,Enterprise,2499,Monthly,2026-08-11,,Active,True
+ACC-00142,Vanguard Works 316,Fintech,Starter,149,Monthly,2025-09-29,,Active,False
+ACC-00143,Synthetix Networks 159,Healthcare Tech,Professional,599,Annual,2025-12-27,,Active,False
+ACC-00144,Vanguard Technologies 90,DevOps & Cloud,Starter,149,Annual,2026-07-28,,Active,False
+ACC-00145,Sync Logistics 482,Cybersecurity,Starter,149,Annual,2026-02-14,2026-04-02,Churned,False
+ACC-00146,BlueFin Digital 703,DevOps & Cloud,Starter,149,Monthly,2025-01-15,,Active,False
+ACC-00147,Aero Capital 995,EdTech,Professional,599,Annual,2025-07-15,,Active,False
+ACC-00148,Quantum Solutions 119,Healthcare Tech,Professional,599,Annual,2026-06-09,,Active,False
+ACC-00149,Aero Systems 859,Cybersecurity,Starter,149,Annual,2025-08-09,2026-09-09,Churned,False
+ACC-00150,Cloud Scale 773,EdTech,Starter,149,Annual,2025-06-24,,Active,False
+ACC-00151,Data Scale 266,Cybersecurity,Enterprise,2499,Annual,2025-03-21,,Active,False
+ACC-00152,Cloud Digital 817,EdTech,Starter,149,Monthly,2026-06-17,,Active,True
+ACC-00153,Aero Analytics 775,EdTech,Starter,149,Monthly,2025-05-25,2026-04-11,Churned,False
+ACC-00154,Synthetix Media 523,E-Commerce / Retail,Professional,599,Monthly,2025-07-22,,Active,False
+ACC-00155,Aero Works 901,E-Commerce / Retail,Enterprise,2499,Monthly,2026-02-23,,Active,True
+ACC-00156,Hyper Capital 751,Cybersecurity,Starter,149,Annual,2026-05-25,,Active,False
+ACC-00157,Apex Digital 559,Fintech,Professional,599,Annual,2025-11-13,,Active,False
+ACC-00158,Quantum Capital 972,E-Commerce / Retail,Professional,599,Monthly,2025-06-28,,Active,False
+ACC-00159,Omni Scale 236,Cybersecurity,Starter,149,Monthly,2026-08-13,,Active,False
+ACC-00160,Aero Capital 428,Fintech,Professional,599,Monthly,2024-12-17,,Active,False
+ACC-00161,Elevate Labs 109,Healthcare Tech,Starter,149,Annual,2025-03-19,,Active,False
+ACC-00162,Peak Scale 770,Cybersecurity,Professional,599,Monthly,2025-12-30,,Active,False
+ACC-00163,Peak Digital 43,Cybersecurity,Professional,599,Annual,2025-06-11,,Active,False
+ACC-00164,Synthetix Labs 712,E-Commerce / Retail,Professional,599,Annual,2026-08-23,,Active,False
+ACC-00165,Data Labs 981,HR Tech,Starter,149,Annual,2025-02-02,,Active,False
+ACC-00166,Apex Systems 815,E-Commerce / Retail,Professional,599,Monthly,2025-03-09,,Active,False
+ACC-00167,Data Scale 231,HR Tech,Starter,149,Monthly,2025-10-03,,Active,False
+ACC-00168,Apex Digital 889,Healthcare Tech,Starter,149,Monthly,2026-05-08,2026-08-05,Churned,False
+ACC-00169,Pulse Capital 897,Fintech,Starter,149,Monthly,2024-11-16,,Active,False
+ACC-00170,Omni Systems 188,E-Commerce / Retail,Professional,599,Monthly,2025-03-10,,Active,False
+ACC-00171,Nexus Solutions 469,HR Tech,Professional,599,Annual,2026-04-10,,Active,False
+ACC-00172,Hyper Scale 54,Cybersecurity,Starter,149,Annual,2026-04-18,2026-06-09,Churned,False
+ACC-00173,Cloud Solutions 877,EdTech,Professional,599,Annual,2025-02-19,,Active,False
+ACC-00174,Nexus Labs 339,DevOps & Cloud,Starter,149,Monthly,2025-01-07,2026-01-06,Churned,False
+ACC-00175,Omni Networks 621,DevOps & Cloud,Professional,599,Annual,2026-02-08,,Active,False
+ACC-00176,Pulse Capital 676,HR Tech,Starter,149,Annual,2025-06-09,,Active,False
+ACC-00177,Peak Analytics 857,EdTech,Professional,599,Annual,2025-12-31,,Active,False
+ACC-00178,Omni Capital 271,E-Commerce / Retail,Starter,149,Monthly,2026-03-01,2026-05-06,Churned,False
+ACC-00179,Nexus Networks 108,Cybersecurity,Enterprise,2499,Annual,2025-11-17,,Active,False
+ACC-00180,Omni Capital 135,EdTech,Starter,149,Annual,2026-01-08,,Active,False
+ACC-00181,Aero Scale 329,E-Commerce / Retail,Starter,149,Monthly,2026-06-15,,Active,True
+ACC-00182,Elevate Logistics 877,Fintech,Starter,149,Annual,2026-05-24,,Active,False
+ACC-00183,Hyper Networks 875,DevOps & Cloud,Enterprise,2499,Annual,2026-07-22,,Active,False
+ACC-00184,Strata Systems 194,E-Commerce / Retail,Enterprise,2499,Annual,2025-09-13,,Active,False
+ACC-00185,Vanguard Technologies 589,Cybersecurity,Starter,149,Annual,2025-01-11,2026-01-15,Churned,False
+ACC-00186,Apex Labs 774,DevOps & Cloud,Professional,599,Monthly,2025-11-21,,Active,False
+ACC-00187,Synthetix Digital 748,E-Commerce / Retail,Professional,599,Annual,2026-07-04,2026-08-24,Churned,False
+ACC-00188,Sync Technologies 782,DevOps & Cloud,Professional,599,Monthly,2025-01-23,,Active,False
+ACC-00189,Elevate Scale 462,EdTech,Professional,599,Annual,2025-06-09,,Active,True
+ACC-00190,Peak Labs 300,Cybersecurity,Starter,149,Annual,2026-07-01,,Active,False
+ACC-00191,Cloud Logistics 414,DevOps & Cloud,Starter,149,Monthly,2024-11-08,2025-04-10,Churned,False
+ACC-00192,Sync Digital 306,E-Commerce / Retail,Enterprise,2499,Monthly,2024-11-08,,Active,False
+ACC-00193,Sync Networks 555,Cybersecurity,Enterprise,2499,Monthly,2026-03-28,,Active,False
+ACC-00194,Synthetix Labs 416,HR Tech,Professional,599,Annual,2024-12-14,,Active,False
+ACC-00195,Nexus Analytics 599,EdTech,Starter,149,Annual,2025-12-20,,Active,False
+ACC-00196,Pulse Networks 31,E-Commerce / Retail,Starter,149,Monthly,2026-07-26,,Active,False
+ACC-00197,Synthetix Labs 457,HR Tech,Professional,599,Monthly,2025-07-08,,Active,False
+ACC-00198,Nexus Networks 901,E-Commerce / Retail,Enterprise,2499,Annual,2025-10-14,,Active,False
+ACC-00199,Nexus Media 658,Fintech,Enterprise,2499,Annual,2026-04-07,,Active,False
+ACC-00200,Synthetix Works 991,HR Tech,Professional,599,Annual,2025-04-01,,Active,True
+ACC-00201,Data Technologies 626,Healthcare Tech,Professional,599,Annual,2025-01-17,2026-04-02,Churned,False
+ACC-00202,Elevate Solutions 782,DevOps & Cloud,Starter,149,Annual,2026-02-03,,Active,False
+ACC-00203,Omni Capital 333,Healthcare Tech,Starter,149,Annual,2025-01-09,,Active,False
+ACC-00204,Strata Scale 67,E-Commerce / Retail,Enterprise,2499,Annual,2025-01-15,,Active,False
+ACC-00205,Cloud Analytics 861,E-Commerce / Retail,Professional,599,Monthly,2026-08-23,,Active,False
+ACC-00206,Quantum Solutions 604,DevOps & Cloud,Starter,149,Annual,2024-12-13,,Active,False
+ACC-00207,Data Analytics 629,EdTech,Starter,149,Annual,2025-04-04,,Active,False
+ACC-00208,Omni Works 96,DevOps & Cloud,Professional,599,Annual,2025-04-26,2026-06-07,Churned,False
+ACC-00209,BlueFin Solutions 546,DevOps & Cloud,Starter,149,Annual,2025-04-12,,Active,False
+ACC-00210,Quantum Networks 803,E-Commerce / Retail,Starter,149,Annual,2026-07-06,2026-10-01,Churned,False
+ACC-00211,Nexus Analytics 106,DevOps & Cloud,Professional,599,Annual,2025-12-01,,Active,False
+ACC-00212,Sync Analytics 93,DevOps & Cloud,Professional,599,Annual,2025-03-25,,Active,False
+ACC-00213,Quantum Technologies 619,Cybersecurity,Professional,599,Monthly,2025-09-14,,Active,False
+ACC-00214,Omni Technologies 696,Cybersecurity,Starter,149,Annual,2026-04-24,2026-09-24,Churned,False
+ACC-00215,Synthetix Systems 381,E-Commerce / Retail,Professional,599,Monthly,2025-06-08,,Active,False
+ACC-00216,Data Logistics 150,Healthcare Tech,Starter,149,Monthly,2025-08-30,,Active,True
+ACC-00217,Cloud Capital 354,HR Tech,Starter,149,Annual,2025-03-15,,Active,True
+ACC-00218,Vanguard Works 799,DevOps & Cloud,Professional,599,Monthly,2026-01-23,2026-06-10,Churned,False
+ACC-00219,Hyper Solutions 635,E-Commerce / Retail,Professional,599,Annual,2026-02-03,,Active,False
+ACC-00220,Elevate Logistics 386,Cybersecurity,Professional,599,Annual,2026-01-26,,Active,False
+ACC-00221,Quantum Media 550,EdTech,Professional,599,Monthly,2025-05-24,,Active,True
+ACC-00222,Strata Systems 666,EdTech,Professional,599,Annual,2026-05-22,,Active,False
+ACC-00223,Pulse Digital 95,HR Tech,Starter,149,Monthly,2025-08-07,,Active,False
+ACC-00224,Peak Labs 979,Healthcare Tech,Starter,149,Annual,2025-10-24,,Active,False
+ACC-00225,Quantum Media 392,Healthcare Tech,Starter,149,Annual,2025-01-23,,Active,True
+ACC-00226,Pulse Works 675,E-Commerce / Retail,Starter,149,Monthly,2025-03-21,2026-01-01,Churned,False
+ACC-00227,Sync Works 490,EdTech,Enterprise,2499,Annual,2024-11-06,,Active,True
+ACC-00228,Data Technologies 571,Cybersecurity,Starter,149,Annual,2026-04-25,,Active,False
+ACC-00229,Hyper Digital 134,Fintech,Enterprise,2499,Monthly,2026-01-04,,Active,False
+ACC-00230,Nexus Labs 866,EdTech,Professional,599,Annual,2026-05-03,2026-10-26,Churned,False
+ACC-00231,Hyper Works 157,E-Commerce / Retail,Professional,599,Annual,2024-11-02,,Active,False
+ACC-00232,Peak Technologies 690,Cybersecurity,Professional,599,Monthly,2026-04-21,,Active,True
+ACC-00233,Apex Networks 904,EdTech,Professional,599,Monthly,2026-08-13,,Active,False
+ACC-00234,Apex Analytics 817,Fintech,Professional,599,Annual,2025-07-05,,Active,False
+ACC-00235,Omni Technologies 55,E-Commerce / Retail,Starter,149,Annual,2025-10-13,,Active,True
+ACC-00236,BlueFin Works 500,Cybersecurity,Professional,599,Monthly,2025-03-19,2026-06-04,Churned,False
+ACC-00237,BlueFin Systems 310,Healthcare Tech,Starter,149,Monthly,2025-05-24,,Active,False
+ACC-00238,Aero Media 417,HR Tech,Starter,149,Annual,2026-02-28,2026-10-23,Churned,False
+ACC-00239,Data Digital 375,HR Tech,Professional,599,Monthly,2025-10-06,,Active,False
+ACC-00240,Peak Networks 771,EdTech,Starter,149,Annual,2025-10-14,,Active,False
+ACC-00241,Elevate Analytics 956,HR Tech,Enterprise,2499,Annual,2025-08-01,,Active,False
+ACC-00242,Nexus Networks 626,HR Tech,Enterprise,2499,Monthly,2026-05-13,,Active,True
+ACC-00243,Omni Capital 312,E-Commerce / Retail,Enterprise,2499,Annual,2026-07-11,,Active,True
+ACC-00244,BlueFin Analytics 467,Fintech,Starter,149,Annual,2025-10-28,,Active,False
+ACC-00245,Cloud Labs 697,Cybersecurity,Starter,149,Annual,2025-11-08,,Active,False
+ACC-00246,Vanguard Systems 156,HR Tech,Enterprise,2499,Annual,2026-01-23,2026-03-26,Churned,False
+ACC-00247,Hyper Capital 385,E-Commerce / Retail,Starter,149,Annual,2026-06-04,2026-08-07,Churned,False
+ACC-00248,BlueFin Analytics 390,EdTech,Enterprise,2499,Monthly,2026-06-11,,Active,False
+ACC-00249,Omni Capital 295,Healthcare Tech,Enterprise,2499,Monthly,2024-11-27,,Active,False
+ACC-00250,Quantum Media 130,E-Commerce / Retail,Enterprise,2499,Annual,2026-01-31,,Active,False
+ACC-00251,Elevate Logistics 135,Healthcare Tech,Starter,149,Monthly,2026-02-06,2026-09-21,Churned,False
+ACC-00252,BlueFin Labs 839,Cybersecurity,Starter,149,Annual,2025-10-22,,Active,False
+ACC-00253,Aero Digital 881,Healthcare Tech,Enterprise,2499,Annual,2026-08-16,,Active,False
+ACC-00254,Hyper Labs 215,HR Tech,Starter,149,Monthly,2025-07-01,,Active,True
+ACC-00255,Synthetix Solutions 832,DevOps & Cloud,Starter,149,Monthly,2026-07-20,,Active,True
+ACC-00256,Quantum Works 746,EdTech,Professional,599,Annual,2025-12-26,,Active,False
+ACC-00257,Nexus Technologies 334,Cybersecurity,Enterprise,2499,Monthly,2026-02-04,,Active,False
+ACC-00258,Sync Media 665,DevOps & Cloud,Professional,599,Monthly,2025-03-13,,Active,False
+ACC-00259,Cloud Labs 540,Healthcare Tech,Professional,599,Annual,2025-04-18,2026-05-31,Churned,False
+ACC-00260,Hyper Analytics 980,DevOps & Cloud,Starter,149,Annual,2025-01-20,2026-01-25,Churned,False
+ACC-00261,Strata Technologies 650,E-Commerce / Retail,Professional,599,Annual,2026-05-01,2026-07-28,Churned,False
+ACC-00262,Sync Technologies 684,DevOps & Cloud,Enterprise,2499,Annual,2026-07-13,,Active,False
+ACC-00263,Cloud Systems 93,Fintech,Starter,149,Annual,2026-06-14,2026-08-24,Churned,False
+ACC-00264,Peak Scale 664,Fintech,Professional,599,Annual,2026-08-05,,Active,False
+ACC-00265,Aero Solutions 260,HR Tech,Enterprise,2499,Annual,2025-12-21,,Active,True
+ACC-00266,Cloud Technologies 460,EdTech,Professional,599,Annual,2026-02-19,2026-09-07,Churned,False
+ACC-00267,Sync Analytics 892,Cybersecurity,Professional,599,Annual,2025-10-20,,Active,True
+ACC-00268,Synthetix Media 585,Fintech,Professional,599,Annual,2025-07-06,,Active,False
+ACC-00269,Hyper Technologies 109,Fintech,Starter,149,Annual,2025-11-29,,Active,False
+ACC-00270,Vanguard Analytics 966,DevOps & Cloud,Starter,149,Annual,2025-09-17,2026-01-21,Churned,False
+ACC-00271,Elevate Media 488,EdTech,Professional,599,Annual,2026-03-25,2026-08-17,Churned,False
+ACC-00272,BlueFin Logistics 230,DevOps & Cloud,Professional,599,Annual,2024-12-20,2025-10-14,Churned,False
+ACC-00273,Elevate Digital 559,Fintech,Enterprise,2499,Monthly,2026-01-16,,Active,False
+ACC-00274,Synthetix Networks 384,Fintech,Enterprise,2499,Annual,2024-12-23,,Active,False
+ACC-00275,Aero Labs 405,DevOps & Cloud,Professional,599,Annual,2026-05-18,,Active,False
+ACC-00276,Pulse Technologies 109,EdTech,Professional,599,Annual,2025-10-14,,Active,False
+ACC-00277,Sync Logistics 626,DevOps & Cloud,Professional,599,Annual,2026-03-28,2026-05-21,Churned,False
+ACC-00278,Sync Works 351,HR Tech,Professional,599,Annual,2026-04-16,,Active,False
+ACC-00279,Sync Analytics 963,DevOps & Cloud,Professional,599,Annual,2025-04-16,,Active,False
+ACC-00280,Aero Scale 354,DevOps & Cloud,Professional,599,Annual,2026-04-30,,Active,False
+ACC-00281,Elevate Systems 387,E-Commerce / Retail,Enterprise,2499,Annual,2025-02-21,,Active,False
+ACC-00282,Apex Scale 495,E-Commerce / Retail,Starter,149,Annual,2026-06-16,,Active,False
+ACC-00283,Elevate Technologies 546,Cybersecurity,Starter,149,Annual,2026-07-28,,Active,False
+ACC-00284,Hyper Systems 596,Cybersecurity,Starter,149,Monthly,2025-05-15,2025-12-06,Churned,False
+ACC-00285,Peak Technologies 432,Cybersecurity,Professional,599,Monthly,2025-12-26,,Active,False
+ACC-00286,Elevate Works 754,Fintech,Starter,149,Annual,2025-03-22,,Active,False
+ACC-00287,Elevate Media 395,E-Commerce / Retail,Professional,599,Monthly,2026-02-14,,Active,False
+ACC-00288,Synthetix Capital 800,HR Tech,Professional,599,Annual,2026-08-21,,Active,False
+ACC-00289,Elevate Logistics 990,Healthcare Tech,Starter,149,Annual,2026-05-26,2026-08-17,Churned,False
+ACC-00290,Aero Works 222,Cybersecurity,Professional,599,Annual,2026-03-16,,Active,False
+ACC-00291,Strata Digital 134,DevOps & Cloud,Starter,149,Annual,2026-05-11,,Active,False
+ACC-00292,Synthetix Technologies 307,Fintech,Starter,149,Annual,2025-01-20,2025-10-18,Churned,False
+ACC-00293,Strata Works 500,Healthcare Tech,Professional,599,Monthly,2026-05-06,,Active,False
+ACC-00294,Strata Technologies 121,DevOps & Cloud,Starter,149,Annual,2026-06-24,2026-08-14,Churned,False
+ACC-00295,Hyper Capital 248,Fintech,Starter,149,Monthly,2025-12-29,2026-10-11,Churned,False
+ACC-00296,Pulse Capital 799,Healthcare Tech,Professional,599,Monthly,2026-05-18,,Active,True
+ACC-00297,Elevate Solutions 676,Healthcare Tech,Professional,599,Annual,2025-09-25,,Active,True
+ACC-00298,Nexus Capital 597,Healthcare Tech,Starter,149,Annual,2024-12-09,,Active,True
+ACC-00299,Vanguard Systems 866,EdTech,Professional,599,Annual,2025-05-10,,Active,False
+ACC-00300,Aero Systems 19,E-Commerce / Retail,Starter,149,Annual,2026-07-11,2026-10-06,Churned,False
+ACC-00301,Aero Solutions 666,DevOps & Cloud,Starter,149,Annual,2026-03-21,,Active,True
+ACC-00302,BlueFin Digital 207,HR Tech,Professional,599,Monthly,2025-10-05,2026-07-11,Churned,False
+ACC-00303,Strata Works 200,Fintech,Professional,599,Annual,2025-10-12,,Active,False
+ACC-00304,Data Technologies 635,HR Tech,Professional,599,Annual,2025-12-21,,Active,False
+ACC-00305,Nexus Networks 695,Fintech,Professional,599,Monthly,2025-03-24,,Active,False
+ACC-00306,Apex Digital 402,Healthcare Tech,Enterprise,2499,Annual,2025-08-01,,Active,False
+ACC-00307,Apex Digital 679,E-Commerce / Retail,Professional,599,Annual,2025-06-30,2025-10-13,Churned,False
+ACC-00308,BlueFin Digital 173,EdTech,Starter,149,Annual,2026-03-30,,Active,False
+ACC-00309,Aero Works 130,Cybersecurity,Professional,599,Annual,2025-11-12,,Active,False
+ACC-00310,Sync Solutions 166,EdTech,Starter,149,Annual,2026-07-14,,Active,False
+ACC-00311,Elevate Media 831,Cybersecurity,Starter,149,Monthly,2025-07-12,,Active,False
+ACC-00312,Nexus Media 467,DevOps & Cloud,Starter,149,Annual,2025-11-06,2026-10-05,Churned,False
+ACC-00313,Pulse Systems 858,DevOps & Cloud,Starter,149,Annual,2025-05-27,,Active,True
+ACC-00314,Omni Media 462,Fintech,Enterprise,2499,Annual,2025-05-30,,Active,False
+ACC-00315,BlueFin Systems 474,Healthcare Tech,Professional,599,Annual,2025-12-31,,Active,True
+ACC-00316,BlueFin Capital 836,E-Commerce / Retail,Professional,599,Annual,2024-11-23,,Active,False
+ACC-00317,Data Scale 84,Fintech,Starter,149,Annual,2025-10-19,,Active,False
+ACC-00318,Cloud Labs 966,EdTech,Starter,149,Monthly,2025-08-21,,Active,False
+ACC-00319,Peak Analytics 922,EdTech,Starter,149,Annual,2025-11-22,,Active,False
+ACC-00320,Sync Capital 890,E-Commerce / Retail,Starter,149,Monthly,2025-05-02,,Active,False
+ACC-00321,Sync Works 238,HR Tech,Professional,599,Monthly,2024-11-24,,Active,False
+ACC-00322,Peak Media 398,HR Tech,Professional,599,Monthly,2025-07-12,,Active,True
+ACC-00323,Data Works 793,Fintech,Professional,599,Monthly,2026-01-04,,Active,False
+ACC-00324,Apex Logistics 221,Fintech,Starter,149,Monthly,2026-07-02,2026-10-31,Churned,False
+ACC-00325,Cloud Logistics 768,Fintech,Enterprise,2499,Annual,2026-01-24,,Active,False
+ACC-00326,Cloud Technologies 525,E-Commerce / Retail,Professional,599,Monthly,2026-06-13,,Active,False
+ACC-00327,Omni Logistics 319,Healthcare Tech,Professional,599,Annual,2026-04-18,,Active,False
+ACC-00328,Cloud Media 981,DevOps & Cloud,Professional,599,Annual,2025-04-29,,Active,False
+ACC-00329,Elevate Systems 362,Cybersecurity,Starter,149,Annual,2025-11-26,,Active,False
+ACC-00330,Peak Networks 162,E-Commerce / Retail,Starter,149,Annual,2025-05-08,,Active,False
+ACC-00331,Hyper Digital 888,Cybersecurity,Starter,149,Monthly,2026-02-18,,Active,False
+ACC-00332,Peak Media 552,Healthcare Tech,Professional,599,Annual,2025-07-07,,Active,False
+ACC-00333,Nexus Solutions 877,E-Commerce / Retail,Starter,149,Monthly,2026-05-03,,Active,False
+ACC-00334,Strata Networks 699,DevOps & Cloud,Starter,149,Annual,2024-12-11,,Active,False
+ACC-00335,Data Solutions 223,HR Tech,Starter,149,Annual,2025-09-07,,Active,True
+ACC-00336,Data Works 130,Cybersecurity,Starter,149,Annual,2025-07-07,,Active,False
+ACC-00337,Quantum Logistics 575,E-Commerce / Retail,Enterprise,2499,Annual,2025-11-25,,Active,False
+ACC-00338,Aero Digital 378,DevOps & Cloud,Professional,599,Annual,2026-02-21,2026-10-08,Churned,False
+ACC-00339,Elevate Analytics 946,Healthcare Tech,Professional,599,Annual,2025-09-17,,Active,False
+ACC-00340,Hyper Works 159,Fintech,Starter,149,Annual,2026-05-21,,Active,False
+ACC-00341,Peak Digital 166,Healthcare Tech,Professional,599,Annual,2025-06-24,,Active,False
+ACC-00342,Elevate Media 680,Cybersecurity,Professional,599,Annual,2025-07-22,,Active,False
+ACC-00343,Elevate Solutions 182,Cybersecurity,Starter,149,Annual,2025-04-23,2026-03-13,Churned,False
+ACC-00344,Elevate Technologies 948,DevOps & Cloud,Starter,149,Annual,2024-12-31,,Active,False
+ACC-00345,Nexus Capital 59,HR Tech,Starter,149,Monthly,2025-12-28,2026-06-09,Churned,False
+ACC-00346,Nexus Works 164,Fintech,Professional,599,Monthly,2026-04-02,,Active,True
+ACC-00347,Elevate Capital 509,Fintech,Professional,599,Monthly,2026-04-29,,Active,True
+ACC-00348,Strata Media 303,Fintech,Starter,149,Annual,2026-01-15,,Active,False
+ACC-00349,Pulse Labs 546,Healthcare Tech,Starter,149,Monthly,2025-05-16,,Active,False
+ACC-00350,Synthetix Digital 824,EdTech,Professional,599,Monthly,2025-11-18,,Active,False
+ACC-00351,Hyper Works 241,E-Commerce / Retail,Professional,599,Annual,2025-01-22,,Active,False
+ACC-00352,Cloud Labs 425,EdTech,Enterprise,2499,Annual,2026-05-20,,Active,False
+ACC-00353,Vanguard Labs 521,HR Tech,Professional,599,Annual,2026-08-23,,Active,False
+ACC-00354,Pulse Media 951,Fintech,Starter,149,Monthly,2025-06-05,,Active,False
+ACC-00355,Elevate Digital 57,Fintech,Starter,149,Annual,2025-08-15,,Active,False
+ACC-00356,Cloud Technologies 961,HR Tech,Professional,599,Annual,2024-11-17,,Active,False
+ACC-00357,Quantum Labs 316,Healthcare Tech,Starter,149,Annual,2025-07-05,,Active,False
+ACC-00358,Omni Networks 783,Cybersecurity,Professional,599,Monthly,2025-01-20,,Active,False
+ACC-00359,Cloud Labs 457,Healthcare Tech,Enterprise,2499,Monthly,2025-10-15,,Active,False
+ACC-00360,Quantum Analytics 40,Cybersecurity,Professional,599,Annual,2026-02-05,,Active,False
+ACC-00361,Quantum Networks 200,Cybersecurity,Starter,149,Annual,2025-11-25,2026-06-09,Churned,False
+ACC-00362,Hyper Works 85,Fintech,Professional,599,Annual,2025-04-07,,Active,False
+ACC-00363,Sync Works 408,E-Commerce / Retail,Professional,599,Annual,2025-02-18,2025-09-08,Churned,False
+ACC-00364,BlueFin Analytics 789,E-Commerce / Retail,Professional,599,Monthly,2025-03-16,2025-12-06,Churned,False
+ACC-00365,BlueFin Media 578,DevOps & Cloud,Enterprise,2499,Annual,2025-02-14,2025-09-28,Churned,False
+ACC-00366,Nexus Scale 622,HR Tech,Starter,149,Annual,2025-11-30,2026-08-13,Churned,False
+ACC-00367,Quantum Labs 752,DevOps & Cloud,Enterprise,2499,Monthly,2026-06-09,,Active,False
+ACC-00368,Vanguard Technologies 285,E-Commerce / Retail,Enterprise,2499,Annual,2026-03-20,,Active,True
+ACC-00369,Strata Networks 316,EdTech,Starter,149,Monthly,2025-11-05,2026-04-25,Churned,False
+ACC-00370,Elevate Scale 641,Healthcare Tech,Starter,149,Annual,2025-02-18,2025-04-07,Churned,False
+ACC-00371,Quantum Analytics 871,DevOps & Cloud,Starter,149,Annual,2025-10-04,,Active,False
+ACC-00372,Sync Digital 338,DevOps & Cloud,Starter,149,Annual,2025-05-25,,Active,True
+ACC-00373,Quantum Analytics 308,Cybersecurity,Starter,149,Annual,2026-08-11,,Active,False
+ACC-00374,Hyper Analytics 395,E-Commerce / Retail,Professional,599,Annual,2025-11-09,2026-10-08,Churned,False
+ACC-00375,Data Scale 568,Healthcare Tech,Starter,149,Annual,2026-05-18,2026-10-03,Churned,False
+ACC-00376,BlueFin Works 224,EdTech,Starter,149,Annual,2025-01-10,,Active,False
+ACC-00377,Peak Capital 521,Healthcare Tech,Professional,599,Annual,2025-09-07,,Active,False
+ACC-00378,Peak Networks 85,EdTech,Starter,149,Annual,2026-03-06,,Active,False
+ACC-00379,Peak Media 47,HR Tech,Professional,599,Annual,2026-05-04,,Active,False
+ACC-00380,Pulse Logistics 683,Cybersecurity,Starter,149,Annual,2025-04-20,,Active,True
+ACC-00381,Quantum Analytics 998,HR Tech,Starter,149,Annual,2025-02-17,2025-08-13,Churned,False
+ACC-00382,Hyper Media 774,DevOps & Cloud,Professional,599,Annual,2026-06-18,,Active,False
+ACC-00383,Synthetix Networks 484,HR Tech,Professional,599,Annual,2026-06-26,,Active,True
+ACC-00384,Apex Solutions 117,E-Commerce / Retail,Enterprise,2499,Annual,2025-01-27,,Active,False
+ACC-00385,Sync Analytics 329,E-Commerce / Retail,Professional,599,Annual,2025-05-31,,Active,False
+ACC-00386,Pulse Solutions 749,Cybersecurity,Professional,599,Annual,2025-09-23,2025-11-29,Churned,False
+ACC-00387,Pulse Systems 879,E-Commerce / Retail,Starter,149,Annual,2025-02-20,,Active,True
+ACC-00388,Hyper Media 188,DevOps & Cloud,Starter,149,Monthly,2025-10-05,,Active,False
+ACC-00389,Hyper Networks 654,Healthcare Tech,Professional,599,Monthly,2026-08-18,,Active,False
+ACC-00390,Data Solutions 616,EdTech,Professional,599,Annual,2024-11-05,,Active,False
+ACC-00391,Nexus Scale 114,HR Tech,Enterprise,2499,Annual,2025-05-11,,Active,False
+ACC-00392,Pulse Digital 696,HR Tech,Starter,149,Annual,2026-04-25,,Active,False
+ACC-00393,Quantum Scale 411,DevOps & Cloud,Starter,149,Monthly,2025-10-23,,Active,False
+ACC-00394,Vanguard Capital 732,HR Tech,Professional,599,Annual,2026-07-23,,Active,False
+ACC-00395,Omni Labs 254,E-Commerce / Retail,Starter,149,Monthly,2025-05-07,,Active,True
+ACC-00396,Quantum Networks 620,Healthcare Tech,Enterprise,2499,Annual,2025-11-28,,Active,False
+ACC-00397,Vanguard Media 180,EdTech,Enterprise,2499,Annual,2025-03-24,,Active,False
+ACC-00398,Cloud Analytics 984,Fintech,Starter,149,Annual,2025-03-20,2025-11-16,Churned,False
+ACC-00399,Elevate Networks 711,EdTech,Professional,599,Annual,2026-01-29,,Active,True
+ACC-00400,Apex Logistics 309,Fintech,Professional,599,Annual,2025-06-19,,Active,True
+ACC-00401,BlueFin Scale 770,HR Tech,Starter,149,Annual,2026-05-17,,Active,False
+ACC-00402,Strata Media 853,E-Commerce / Retail,Enterprise,2499,Annual,2024-12-13,,Active,False
+ACC-00403,Data Networks 114,Cybersecurity,Professional,599,Annual,2025-07-12,,Active,False
+ACC-00404,BlueFin Digital 366,HR Tech,Professional,599,Monthly,2026-01-24,,Active,True
+ACC-00405,Hyper Logistics 840,Cybersecurity,Starter,149,Annual,2025-10-26,,Active,False
+ACC-00406,Peak Technologies 640,Healthcare Tech,Enterprise,2499,Monthly,2025-05-31,,Active,False
+ACC-00407,Strata Scale 561,Healthcare Tech,Starter,149,Annual,2025-08-27,2026-02-24,Churned,False
+ACC-00408,Pulse Technologies 995,HR Tech,Starter,149,Annual,2024-12-31,,Active,False
+ACC-00409,Sync Works 896,Healthcare Tech,Enterprise,2499,Monthly,2025-03-30,,Active,False
+ACC-00410,Quantum Solutions 155,DevOps & Cloud,Starter,149,Annual,2025-08-03,,Active,False
+ACC-00411,Nexus Capital 823,HR Tech,Starter,149,Monthly,2025-12-18,,Active,False
+ACC-00412,Synthetix Solutions 983,EdTech,Enterprise,2499,Annual,2026-06-19,2026-08-14,Churned,False
+ACC-00413,BlueFin Capital 690,Cybersecurity,Enterprise,2499,Annual,2025-01-04,,Active,False
+ACC-00414,Peak Logistics 516,E-Commerce / Retail,Professional,599,Annual,2025-08-18,,Active,False
+ACC-00415,Elevate Analytics 925,Cybersecurity,Professional,599,Monthly,2024-12-18,2026-03-09,Churned,False
+ACC-00416,BlueFin Systems 137,HR Tech,Starter,149,Monthly,2026-01-26,,Active,False
+ACC-00417,Peak Logistics 715,Healthcare Tech,Starter,149,Annual,2025-09-06,2026-03-10,Churned,False
+ACC-00418,Nexus Capital 379,E-Commerce / Retail,Starter,149,Monthly,2025-11-16,,Active,False
+ACC-00419,Cloud Networks 650,E-Commerce / Retail,Professional,599,Annual,2025-06-28,,Active,True
+ACC-00420,Pulse Systems 228,EdTech,Professional,599,Monthly,2025-03-16,,Active,False
+ACC-00421,BlueFin Systems 18,Cybersecurity,Professional,599,Annual,2025-03-04,,Active,False
+ACC-00422,Sync Solutions 82,Healthcare Tech,Professional,599,Annual,2025-01-31,,Active,True
+ACC-00423,Omni Analytics 912,E-Commerce / Retail,Starter,149,Monthly,2025-11-27,,Active,False
+ACC-00424,Sync Capital 703,Healthcare Tech,Professional,599,Monthly,2026-04-28,,Active,False
+ACC-00425,Vanguard Solutions 369,Cybersecurity,Starter,149,Monthly,2026-08-06,,Active,False
+ACC-00426,BlueFin Logistics 98,Fintech,Professional,599,Monthly,2025-03-07,,Active,False
+ACC-00427,Peak Analytics 820,Healthcare Tech,Starter,149,Monthly,2025-08-11,,Active,False
+ACC-00428,Aero Works 37,HR Tech,Enterprise,2499,Annual,2025-09-05,,Active,False
+ACC-00429,Data Works 411,E-Commerce / Retail,Starter,149,Annual,2024-12-26,,Active,False
+ACC-00430,Hyper Solutions 405,Fintech,Starter,149,Monthly,2026-03-27,,Active,True
+ACC-00431,Apex Analytics 966,E-Commerce / Retail,Starter,149,Monthly,2025-12-02,,Active,False
+ACC-00432,Synthetix Media 709,Healthcare Tech,Professional,599,Annual,2025-01-14,2025-04-03,Churned,False
+ACC-00433,Apex Digital 230,Fintech,Professional,599,Monthly,2025-12-13,,Active,False
+ACC-00434,Peak Networks 728,EdTech,Starter,149,Monthly,2026-08-18,,Active,False
+ACC-00435,Strata Labs 327,Fintech,Starter,149,Annual,2025-05-28,,Active,True
+ACC-00436,Omni Networks 610,Cybersecurity,Professional,599,Annual,2026-08-21,2026-10-27,Churned,False
+ACC-00437,Peak Works 986,HR Tech,Starter,149,Monthly,2024-12-30,2025-09-23,Churned,False
+ACC-00438,Pulse Solutions 636,DevOps & Cloud,Professional,599,Monthly,2025-09-13,,Active,False
+ACC-00439,Vanguard Labs 22,Cybersecurity,Professional,599,Monthly,2024-11-12,2025-06-22,Churned,False
+ACC-00440,Strata Technologies 390,Healthcare Tech,Starter,149,Annual,2025-08-03,,Active,True
+ACC-00441,Apex Analytics 836,EdTech,Starter,149,Annual,2026-04-21,2026-10-30,Churned,False
+ACC-00442,Nexus Solutions 476,DevOps & Cloud,Enterprise,2499,Annual,2024-12-27,,Active,False
+ACC-00443,Synthetix Technologies 271,HR Tech,Starter,149,Monthly,2026-06-11,,Active,True
+ACC-00444,Apex Systems 889,HR Tech,Starter,149,Monthly,2025-07-09,2026-02-25,Churned,False
+ACC-00445,Quantum Technologies 193,HR Tech,Professional,599,Monthly,2026-05-21,,Active,False
+ACC-00446,Peak Logistics 339,Healthcare Tech,Enterprise,2499,Annual,2025-09-24,,Active,True
+ACC-00447,Synthetix Labs 524,Cybersecurity,Enterprise,2499,Monthly,2025-05-03,,Active,False
+ACC-00448,Cloud Networks 80,EdTech,Professional,599,Annual,2025-09-15,,Active,False
+ACC-00449,Apex Analytics 215,E-Commerce / Retail,Starter,149,Annual,2025-09-08,,Active,False
+ACC-00450,Synthetix Scale 515,HR Tech,Starter,149,Monthly,2026-05-14,,Active,False
+ACC-00451,Apex Networks 34,Healthcare Tech,Professional,599,Annual,2025-10-21,,Active,False
+ACC-00452,Apex Analytics 11,HR Tech,Professional,599,Annual,2025-11-21,,Active,False
+ACC-00453,Pulse Logistics 552,Healthcare Tech,Starter,149,Annual,2026-03-19,,Active,False
+ACC-00454,Sync Works 296,Fintech,Enterprise,2499,Monthly,2025-06-26,,Active,False
+ACC-00455,Synthetix Solutions 775,Fintech,Starter,149,Annual,2025-02-06,,Active,False
+ACC-00456,Quantum Labs 616,DevOps & Cloud,Professional,599,Monthly,2026-01-20,,Active,True
+ACC-00457,Omni Networks 727,HR Tech,Starter,149,Annual,2025-10-01,2026-04-03,Churned,False
+ACC-00458,Hyper Labs 976,Healthcare Tech,Professional,599,Monthly,2026-06-22,2026-08-19,Churned,False
+ACC-00459,Vanguard Solutions 487,E-Commerce / Retail,Starter,149,Annual,2025-03-04,,Active,False
+ACC-00460,Data Solutions 325,EdTech,Starter,149,Annual,2025-03-03,2026-04-03,Churned,False
+ACC-00461,Aero Works 723,DevOps & Cloud,Starter,149,Monthly,2025-06-09,,Active,False
+ACC-00462,Nexus Works 264,E-Commerce / Retail,Professional,599,Annual,2026-04-10,2026-08-09,Churned,False
+ACC-00463,Strata Technologies 41,EdTech,Professional,599,Annual,2026-05-24,,Active,False
+ACC-00464,BlueFin Labs 833,HR Tech,Professional,599,Monthly,2025-03-05,2026-05-23,Churned,False
+ACC-00465,Hyper Technologies 212,HR Tech,Enterprise,2499,Annual,2025-11-17,,Active,False
+ACC-00466,Nexus Scale 610,E-Commerce / Retail,Starter,149,Monthly,2024-11-23,,Active,False
+ACC-00467,BlueFin Technologies 104,HR Tech,Starter,149,Annual,2025-03-06,2025-12-12,Churned,False
+ACC-00468,Cloud Technologies 956,DevOps & Cloud,Enterprise,2499,Annual,2025-12-10,,Active,False
+ACC-00469,Peak Technologies 372,Healthcare Tech,Starter,149,Monthly,2025-08-09,2025-12-08,Churned,False
+ACC-00470,Cloud Scale 644,DevOps & Cloud,Enterprise,2499,Monthly,2026-08-25,,Active,False
+ACC-00471,Elevate Systems 99,E-Commerce / Retail,Starter,149,Annual,2025-03-21,,Active,False
+ACC-00472,Hyper Capital 831,DevOps & Cloud,Enterprise,2499,Monthly,2025-11-27,,Active,False
+ACC-00473,Elevate Analytics 944,DevOps & Cloud,Starter,149,Annual,2025-09-26,,Active,True
+ACC-00474,Omni Scale 234,Fintech,Enterprise,2499,Annual,2024-12-30,,Active,False
+ACC-00475,Synthetix Scale 248,Healthcare Tech,Professional,599,Monthly,2025-07-12,,Active,False
+ACC-00476,Cloud Logistics 599,HR Tech,Enterprise,2499,Annual,2025-10-30,,Active,False
+ACC-00477,Vanguard Technologies 252,DevOps & Cloud,Starter,149,Annual,2025-11-03,,Active,True
+ACC-00478,Synthetix Scale 587,Healthcare Tech,Professional,599,Annual,2025-05-12,,Active,False
+ACC-00479,Elevate Media 326,Healthcare Tech,Enterprise,2499,Annual,2024-12-09,,Active,False
+ACC-00480,Hyper Systems 549,EdTech,Professional,599,Monthly,2025-10-06,,Active,False
+ACC-00481,Sync Analytics 744,Healthcare Tech,Professional,599,Annual,2024-12-31,2025-12-11,Churned,False
+ACC-00482,Sync Labs 876,DevOps & Cloud,Professional,599,Annual,2025-01-14,,Active,False
+ACC-00483,Quantum Scale 113,E-Commerce / Retail,Professional,599,Annual,2025-09-27,2026-01-30,Churned,False
+ACC-00484,Peak Capital 993,EdTech,Professional,599,Annual,2025-09-21,2026-08-19,Churned,False
+ACC-00485,Synthetix Logistics 691,DevOps & Cloud,Professional,599,Monthly,2025-11-23,,Active,False
+ACC-00486,Sync Technologies 756,Fintech,Enterprise,2499,Annual,2026-06-10,,Active,False
+ACC-00487,Cloud Technologies 626,E-Commerce / Retail,Starter,149,Annual,2025-06-15,,Active,True
+ACC-00488,Elevate Technologies 349,Cybersecurity,Starter,149,Monthly,2025-07-02,2026-01-26,Churned,False
+ACC-00489,Vanguard Capital 916,Fintech,Enterprise,2499,Annual,2026-08-17,,Active,False
+ACC-00490,Apex Digital 224,Healthcare Tech,Enterprise,2499,Annual,2025-01-09,,Active,False
+ACC-00491,Apex Systems 405,EdTech,Professional,599,Annual,2026-01-04,,Active,False
+ACC-00492,Elevate Networks 369,DevOps & Cloud,Professional,599,Annual,2025-02-12,,Active,False
+ACC-00493,Hyper Technologies 472,Fintech,Starter,149,Monthly,2025-08-29,2026-02-23,Churned,False
+ACC-00494,Pulse Labs 360,Healthcare Tech,Starter,149,Annual,2025-04-14,,Active,False
+ACC-00495,Nexus Analytics 618,DevOps & Cloud,Professional,599,Annual,2024-12-02,,Active,False
+ACC-00496,Peak Technologies 64,Fintech,Starter,149,Annual,2025-05-30,,Active,False
+ACC-00497,Strata Capital 298,E-Commerce / Retail,Professional,599,Monthly,2025-02-07,2026-01-10,Churned,False
+ACC-00498,Elevate Technologies 65,E-Commerce / Retail,Starter,149,Monthly,2026-01-12,2026-09-24,Churned,False
+ACC-00499,Elevate Logistics 109,Fintech,Enterprise,2499,Monthly,2025-04-24,,Active,False
+ACC-00500,Elevate Labs 325,HR Tech,Enterprise,2499,Annual,2026-02-26,,Active,False
+ACC-00501,Nexus Capital 567,EdTech,Professional,599,Monthly,2025-11-15,,Active,False
+ACC-00502,BlueFin Systems 279,EdTech,Professional,599,Annual,2025-07-28,,Active,False
+ACC-00503,Cloud Technologies 780,Cybersecurity,Starter,149,Annual,2025-02-08,2025-09-17,Churned,False
+ACC-00504,Peak Scale 242,DevOps & Cloud,Professional,599,Monthly,2025-12-02,,Active,False
+ACC-00505,Elevate Scale 912,Healthcare Tech,Professional,599,Annual,2025-09-03,2026-10-18,Churned,False
+ACC-00506,Cloud Media 594,DevOps & Cloud,Starter,149,Annual,2026-07-29,2026-10-30,Churned,False
+ACC-00507,BlueFin Technologies 981,Healthcare Tech,Enterprise,2499,Monthly,2025-05-17,,Active,False
+ACC-00508,Peak Logistics 852,Cybersecurity,Professional,599,Monthly,2026-07-03,,Active,False
+ACC-00509,Nexus Labs 407,DevOps & Cloud,Enterprise,2499,Annual,2026-05-20,,Active,False
+ACC-00510,BlueFin Systems 815,Cybersecurity,Professional,599,Annual,2026-06-25,,Active,False
+ACC-00511,Peak Technologies 161,DevOps & Cloud,Professional,599,Annual,2026-06-20,,Active,False
+ACC-00512,Pulse Scale 808,Fintech,Starter,149,Annual,2026-05-03,,Active,False
+ACC-00513,Strata Networks 680,EdTech,Enterprise,2499,Annual,2026-07-17,,Active,True
+ACC-00514,Quantum Technologies 643,DevOps & Cloud,Enterprise,2499,Annual,2025-12-17,2026-07-19,Churned,False
+ACC-00515,Hyper Systems 773,EdTech,Starter,149,Annual,2025-11-17,2026-06-05,Churned,False
+ACC-00516,Aero Digital 873,EdTech,Starter,149,Annual,2025-02-09,,Active,False
+ACC-00517,Aero Works 463,HR Tech,Starter,149,Annual,2025-08-03,,Active,False
+ACC-00518,Nexus Logistics 462,Healthcare Tech,Professional,599,Annual,2026-03-12,,Active,False
+ACC-00519,Cloud Media 820,Healthcare Tech,Enterprise,2499,Monthly,2025-09-15,,Active,False
+ACC-00520,Apex Technologies 207,HR Tech,Starter,149,Monthly,2024-12-30,2025-10-04,Churned,False
+ACC-00521,Cloud Analytics 731,Healthcare Tech,Professional,599,Annual,2025-11-13,,Active,False
+ACC-00522,Pulse Capital 41,Healthcare Tech,Starter,149,Annual,2026-03-16,,Active,True
+ACC-00523,Elevate Scale 574,E-Commerce / Retail,Enterprise,2499,Annual,2025-04-17,,Active,False
+ACC-00524,Nexus Digital 38,EdTech,Professional,599,Monthly,2025-04-16,,Active,False
+ACC-00525,Data Logistics 672,Healthcare Tech,Professional,599,Annual,2025-05-31,,Active,False
+ACC-00526,Apex Capital 19,EdTech,Professional,599,Monthly,2026-08-25,2026-10-09,Churned,False
+ACC-00527,Hyper Digital 632,HR Tech,Starter,149,Annual,2026-08-21,2026-10-17,Churned,False
+ACC-00528,Synthetix Solutions 268,Healthcare Tech,Starter,149,Annual,2025-09-06,,Active,False
+ACC-00529,Quantum Scale 114,Fintech,Starter,149,Annual,2025-11-19,,Active,False
+ACC-00530,Aero Digital 710,Fintech,Enterprise,2499,Annual,2025-01-05,,Active,False
+ACC-00531,Omni Digital 277,Cybersecurity,Professional,599,Annual,2026-08-30,,Active,True
+ACC-00532,Quantum Capital 337,Cybersecurity,Enterprise,2499,Monthly,2024-11-27,,Active,False
+ACC-00533,Strata Networks 424,EdTech,Enterprise,2499,Annual,2024-12-07,,Active,False
+ACC-00534,Data Analytics 753,Cybersecurity,Professional,599,Monthly,2026-05-02,,Active,False
+ACC-00535,Synthetix Media 317,HR Tech,Professional,599,Monthly,2026-05-26,2026-07-22,Churned,False
+ACC-00536,Elevate Technologies 768,E-Commerce / Retail,Enterprise,2499,Annual,2026-05-27,,Active,False
+ACC-00537,Omni Capital 101,Healthcare Tech,Professional,599,Annual,2025-06-17,,Active,False
+ACC-00538,Omni Analytics 276,DevOps & Cloud,Starter,149,Annual,2026-02-18,,Active,False
+ACC-00539,Nexus Solutions 920,Healthcare Tech,Professional,599,Annual,2025-03-03,,Active,False
+ACC-00540,Aero Networks 65,HR Tech,Starter,149,Monthly,2025-03-21,,Active,False
+ACC-00541,BlueFin Technologies 333,HR Tech,Enterprise,2499,Annual,2025-05-04,,Active,False
+ACC-00542,Vanguard Analytics 659,Fintech,Professional,599,Monthly,2026-02-06,,Active,False
+ACC-00543,Vanguard Scale 792,Healthcare Tech,Starter,149,Annual,2025-01-30,2025-10-24,Churned,False
+ACC-00544,Peak Networks 449,EdTech,Professional,599,Annual,2024-11-05,2025-04-01,Churned,False
+ACC-00545,Synthetix Systems 923,E-Commerce / Retail,Professional,599,Annual,2025-05-15,2025-07-01,Churned,False
+ACC-00546,Hyper Logistics 720,E-Commerce / Retail,Starter,149,Annual,2025-03-13,2026-01-09,Churned,False
+ACC-00547,Aero Technologies 76,HR Tech,Starter,149,Monthly,2025-09-02,,Active,False
+ACC-00548,Omni Networks 919,Cybersecurity,Professional,599,Monthly,2025-10-17,,Active,False
+ACC-00549,Data Technologies 980,HR Tech,Professional,599,Annual,2024-11-20,,Active,False
+ACC-00550,Sync Logistics 761,Fintech,Professional,599,Annual,2026-04-01,2026-08-17,Churned,False
+ACC-00551,Cloud Networks 907,Cybersecurity,Professional,599,Annual,2026-05-02,,Active,False
+ACC-00552,Cloud Capital 120,Cybersecurity,Enterprise,2499,Monthly,2024-12-20,,Active,False
+ACC-00553,Quantum Labs 570,E-Commerce / Retail,Professional,599,Annual,2025-04-06,2026-05-07,Churned,False
+ACC-00554,Apex Digital 440,Cybersecurity,Professional,599,Monthly,2026-04-17,,Active,False
+ACC-00555,Sync Networks 860,Fintech,Enterprise,2499,Annual,2026-07-26,,Active,True
+ACC-00556,Pulse Solutions 213,DevOps & Cloud,Starter,149,Monthly,2025-07-28,,Active,False
+ACC-00557,Synthetix Works 429,E-Commerce / Retail,Starter,149,Monthly,2024-12-11,,Active,False
+ACC-00558,Elevate Analytics 250,Fintech,Starter,149,Monthly,2025-01-31,,Active,False
+ACC-00559,Elevate Technologies 982,Fintech,Professional,599,Annual,2025-01-16,,Active,True
+ACC-00560,Strata Capital 246,EdTech,Professional,599,Annual,2025-07-29,,Active,True
+ACC-00561,Vanguard Systems 882,E-Commerce / Retail,Professional,599,Annual,2025-09-17,,Active,True
+ACC-00562,Cloud Systems 882,Healthcare Tech,Starter,149,Annual,2026-08-25,2026-10-20,Churned,False
+ACC-00563,BlueFin Scale 284,Cybersecurity,Starter,149,Monthly,2025-11-17,,Active,False
+ACC-00564,Quantum Networks 995,EdTech,Starter,149,Annual,2025-11-30,,Active,False
+ACC-00565,Peak Capital 917,HR Tech,Starter,149,Monthly,2025-02-24,2026-04-16,Churned,False
+ACC-00566,Cloud Technologies 116,EdTech,Professional,599,Annual,2026-03-10,,Active,False
+ACC-00567,Vanguard Scale 398,HR Tech,Starter,149,Annual,2026-07-20,2026-10-16,Churned,False
+ACC-00568,Sync Solutions 952,EdTech,Starter,149,Monthly,2025-12-27,,Active,True
+ACC-00569,Omni Systems 731,HR Tech,Enterprise,2499,Annual,2026-04-22,,Active,False
+ACC-00570,Hyper Capital 904,E-Commerce / Retail,Starter,149,Annual,2026-04-20,,Active,False
+ACC-00571,Peak Capital 754,Healthcare Tech,Professional,599,Annual,2025-10-21,,Active,False
+ACC-00572,Sync Media 923,DevOps & Cloud,Professional,599,Monthly,2024-11-12,,Active,True
+ACC-00573,Elevate Solutions 900,Healthcare Tech,Starter,149,Monthly,2026-03-19,2026-07-26,Churned,False
+ACC-00574,Strata Systems 529,Healthcare Tech,Professional,599,Annual,2026-08-21,,Active,False
+ACC-00575,Nexus Solutions 464,HR Tech,Enterprise,2499,Annual,2026-02-02,,Active,False
+ACC-00576,Omni Labs 519,Cybersecurity,Enterprise,2499,Annual,2024-11-19,,Active,False
+ACC-00577,Apex Labs 820,DevOps & Cloud,Starter,149,Annual,2026-08-15,2026-10-31,Churned,False
+ACC-00578,Data Capital 697,EdTech,Enterprise,2499,Annual,2025-11-08,,Active,False
+ACC-00579,BlueFin Analytics 583,HR Tech,Professional,599,Annual,2026-07-08,,Active,False
+ACC-00580,BlueFin Labs 109,HR Tech,Starter,149,Annual,2025-06-16,2026-01-28,Churned,False
+ACC-00581,Aero Media 544,E-Commerce / Retail,Professional,599,Annual,2025-02-17,2025-06-26,Churned,False
+ACC-00582,Elevate Technologies 851,Cybersecurity,Enterprise,2499,Annual,2025-12-25,,Active,False
+ACC-00583,Data Labs 962,HR Tech,Professional,599,Annual,2025-06-09,,Active,False
+ACC-00584,Omni Labs 785,EdTech,Starter,149,Monthly,2026-08-11,,Active,False
+ACC-00585,BlueFin Solutions 684,DevOps & Cloud,Professional,599,Annual,2025-03-18,,Active,True
+ACC-00586,Cloud Media 967,EdTech,Starter,149,Annual,2026-03-10,,Active,False
+ACC-00587,Vanguard Works 602,Healthcare Tech,Starter,149,Annual,2025-03-12,2026-03-28,Churned,False
+ACC-00588,Omni Media 912,EdTech,Starter,149,Annual,2026-07-17,,Active,False
+ACC-00589,Strata Networks 996,E-Commerce / Retail,Starter,149,Annual,2026-02-07,,Active,True
+ACC-00590,Aero Works 570,HR Tech,Starter,149,Annual,2026-05-21,,Active,False
+ACC-00591,Aero Capital 363,Cybersecurity,Starter,149,Monthly,2026-08-28,,Active,True
+ACC-00592,Omni Works 128,HR Tech,Professional,599,Annual,2026-05-30,,Active,False
+ACC-00593,Peak Capital 775,HR Tech,Starter,149,Annual,2025-08-20,,Active,False
+ACC-00594,Apex Media 119,Fintech,Starter,149,Annual,2025-03-29,2025-06-10,Churned,False
+ACC-00595,Data Digital 778,HR Tech,Enterprise,2499,Monthly,2025-08-21,,Active,True
+ACC-00596,Cloud Works 813,E-Commerce / Retail,Professional,599,Monthly,2026-05-09,2026-10-16,Churned,False
+ACC-00597,Pulse Scale 898,Cybersecurity,Professional,599,Annual,2026-05-30,,Active,False
+ACC-00598,Quantum Logistics 533,HR Tech,Starter,149,Annual,2025-08-22,,Active,True
+ACC-00599,Quantum Networks 436,HR Tech,Starter,149,Annual,2025-09-17,,Active,True
+ACC-00600,Strata Logistics 645,HR Tech,Starter,149,Annual,2025-06-19,,Active,False
+ACC-00601,Synthetix Scale 569,Cybersecurity,Starter,149,Annual,2025-05-21,,Active,False
+ACC-00602,Aero Solutions 191,Cybersecurity,Starter,149,Monthly,2025-05-11,,Active,False
+ACC-00603,Pulse Networks 51,EdTech,Starter,149,Annual,2026-05-24,2026-07-28,Churned,False
+ACC-00604,Strata Systems 348,EdTech,Starter,149,Annual,2025-04-08,2025-11-04,Churned,False
+ACC-00605,Cloud Capital 640,HR Tech,Starter,149,Annual,2025-09-05,,Active,False
+ACC-00606,Synthetix Labs 812,Cybersecurity,Professional,599,Annual,2026-04-23,2026-07-24,Churned,False
+ACC-00607,Nexus Media 173,EdTech,Starter,149,Annual,2026-05-04,,Active,False
+ACC-00608,Data Capital 349,E-Commerce / Retail,Starter,149,Annual,2025-08-28,2026-11-01,Churned,False
+ACC-00609,Elevate Media 853,HR Tech,Professional,599,Annual,2024-11-10,2025-06-20,Churned,False
+ACC-00610,BlueFin Logistics 936,Cybersecurity,Professional,599,Annual,2026-07-30,,Active,True
+ACC-00611,Omni Networks 947,HR Tech,Starter,149,Monthly,2025-12-01,2026-06-08,Churned,False
+ACC-00612,Apex Media 851,HR Tech,Professional,599,Annual,2026-04-11,,Active,False
+ACC-00613,Cloud Digital 929,Cybersecurity,Professional,599,Monthly,2025-09-25,,Active,False
+ACC-00614,Vanguard Media 556,Fintech,Starter,149,Annual,2025-01-07,2026-01-09,Churned,False
+ACC-00615,Data Capital 444,HR Tech,Enterprise,2499,Monthly,2025-05-30,,Active,False
+ACC-00616,Peak Capital 846,Fintech,Enterprise,2499,Annual,2025-04-07,2026-05-24,Churned,False
+ACC-00617,Omni Systems 99,Fintech,Starter,149,Monthly,2025-05-02,,Active,False
+ACC-00618,Hyper Digital 427,EdTech,Starter,149,Annual,2026-08-08,,Active,False
+ACC-00619,Quantum Capital 131,DevOps & Cloud,Professional,599,Monthly,2026-08-19,,Active,True
+ACC-00620,Cloud Works 878,Fintech,Professional,599,Annual,2026-03-30,2026-07-30,Churned,False
+ACC-00621,Nexus Digital 793,EdTech,Starter,149,Annual,2025-12-10,,Active,True
+ACC-00622,Vanguard Media 235,Healthcare Tech,Starter,149,Annual,2025-12-06,,Active,False
+ACC-00623,Aero Capital 157,E-Commerce / Retail,Starter,149,Annual,2026-08-26,,Active,False
+ACC-00624,Sync Labs 52,Fintech,Professional,599,Annual,2026-07-04,,Active,False
+ACC-00625,Nexus Digital 225,Cybersecurity,Professional,599,Annual,2025-10-19,2026-10-29,Churned,False
+ACC-00626,Sync Technologies 198,Healthcare Tech,Starter,149,Annual,2025-07-17,2025-12-01,Churned,False
+ACC-00627,Cloud Media 482,Cybersecurity,Professional,599,Annual,2025-01-14,,Active,True
+ACC-00628,Pulse Logistics 753,DevOps & Cloud,Professional,599,Annual,2025-10-05,,Active,False
+ACC-00629,Hyper Labs 301,DevOps & Cloud,Starter,149,Monthly,2025-05-18,2026-02-17,Churned,False
+ACC-00630,Omni Scale 685,E-Commerce / Retail,Starter,149,Annual,2026-06-22,2026-10-17,Churned,False
+ACC-00631,Synthetix Analytics 991,EdTech,Professional,599,Monthly,2024-11-05,,Active,False
+ACC-00632,Peak Digital 870,E-Commerce / Retail,Enterprise,2499,Monthly,2025-10-06,,Active,False
+ACC-00633,Synthetix Digital 508,DevOps & Cloud,Professional,599,Monthly,2025-04-29,,Active,True
+ACC-00634,Strata Technologies 922,DevOps & Cloud,Professional,599,Monthly,2025-07-28,,Active,False
+ACC-00635,Nexus Systems 879,DevOps & Cloud,Starter,149,Annual,2024-12-02,,Active,False
+ACC-00636,Data Systems 574,E-Commerce / Retail,Starter,149,Annual,2026-05-07,,Active,False
+ACC-00637,Synthetix Networks 238,HR Tech,Professional,599,Annual,2025-08-25,2026-06-22,Churned,False
+ACC-00638,Nexus Networks 382,DevOps & Cloud,Starter,149,Monthly,2025-07-03,,Active,False
+ACC-00639,Vanguard Media 153,EdTech,Starter,149,Monthly,2025-05-03,,Active,False
+ACC-00640,Sync Works 759,EdTech,Starter,149,Annual,2024-12-12,2025-10-02,Churned,False
+ACC-00641,Hyper Labs 280,E-Commerce / Retail,Starter,149,Monthly,2024-12-14,,Active,False
+ACC-00642,Synthetix Networks 490,EdTech,Starter,149,Monthly,2024-12-11,,Active,False
+ACC-00643,Strata Works 279,DevOps & Cloud,Starter,149,Annual,2026-06-07,2026-10-13,Churned,False
+ACC-00644,Quantum Analytics 611,Cybersecurity,Starter,149,Monthly,2026-04-14,2026-07-25,Churned,False
+ACC-00645,Quantum Analytics 846,HR Tech,Starter,149,Annual,2026-03-14,,Active,False
+ACC-00646,Apex Media 913,Healthcare Tech,Enterprise,2499,Annual,2025-04-19,,Active,False
+ACC-00647,Strata Logistics 163,Healthcare Tech,Professional,599,Monthly,2025-11-06,,Active,False
+ACC-00648,Hyper Networks 840,E-Commerce / Retail,Professional,599,Annual,2025-02-25,,Active,False
+ACC-00649,Data Scale 175,Cybersecurity,Professional,599,Annual,2024-11-23,,Active,True
+ACC-00650,Vanguard Technologies 654,DevOps & Cloud,Professional,599,Monthly,2026-06-10,2026-08-15,Churned,False
+ACC-00651,Strata Technologies 539,EdTech,Starter,149,Annual,2026-06-01,,Active,False
+ACC-00652,Aero Labs 231,EdTech,Professional,599,Annual,2026-02-26,,Active,True
+ACC-00653,Peak Scale 156,HR Tech,Professional,599,Annual,2025-05-06,,Active,False
+ACC-00654,Vanguard Works 712,E-Commerce / Retail,Professional,599,Annual,2026-07-04,,Active,False
+ACC-00655,Quantum Technologies 121,Fintech,Starter,149,Monthly,2026-04-20,,Active,False
+ACC-00656,Peak Technologies 630,Fintech,Starter,149,Monthly,2026-03-03,,Active,False
+ACC-00657,Pulse Labs 503,Cybersecurity,Starter,149,Monthly,2026-07-11,,Active,True
+ACC-00658,Peak Media 440,E-Commerce / Retail,Starter,149,Monthly,2026-04-27,,Active,False
+ACC-00659,Elevate Networks 368,DevOps & Cloud,Professional,599,Annual,2026-06-13,2026-08-14,Churned,False
+ACC-00660,Strata Solutions 794,Healthcare Tech,Professional,599,Monthly,2025-08-18,,Active,False
+ACC-00661,Strata Logistics 15,Cybersecurity,Starter,149,Annual,2024-11-08,,Active,True
+ACC-00662,Apex Networks 680,Healthcare Tech,Enterprise,2499,Annual,2025-09-20,,Active,True
+ACC-00663,Peak Capital 609,E-Commerce / Retail,Professional,599,Annual,2026-05-03,,Active,False
+ACC-00664,Strata Capital 416,HR Tech,Starter,149,Monthly,2025-12-29,,Active,False
+ACC-00665,Vanguard Analytics 582,DevOps & Cloud,Starter,149,Annual,2025-07-18,,Active,False
+ACC-00666,Quantum Works 151,HR Tech,Starter,149,Annual,2025-03-02,,Active,False
+ACC-00667,Vanguard Labs 229,DevOps & Cloud,Starter,149,Annual,2025-10-13,,Active,False
+ACC-00668,Cloud Technologies 408,Cybersecurity,Starter,149,Monthly,2025-02-02,,Active,False
+ACC-00669,Peak Labs 75,E-Commerce / Retail,Starter,149,Monthly,2025-11-15,2026-01-18,Churned,False
+ACC-00670,Quantum Networks 638,Cybersecurity,Starter,149,Annual,2025-08-21,,Active,False
+ACC-00671,Vanguard Capital 516,EdTech,Starter,149,Monthly,2025-05-26,,Active,False
+ACC-00672,Aero Logistics 44,HR Tech,Enterprise,2499,Annual,2026-04-07,,Active,False
+ACC-00673,Vanguard Capital 46,E-Commerce / Retail,Starter,149,Monthly,2026-09-02,2026-10-22,Churned,False
+ACC-00674,Nexus Digital 808,EdTech,Professional,599,Annual,2025-12-10,,Active,False
+ACC-00675,Apex Works 730,Fintech,Starter,149,Monthly,2026-05-17,2026-10-15,Churned,False
+ACC-00676,Synthetix Analytics 996,HR Tech,Enterprise,2499,Annual,2025-06-20,,Active,False
+ACC-00677,Quantum Scale 14,E-Commerce / Retail,Starter,149,Monthly,2025-12-22,,Active,False
+ACC-00678,Aero Analytics 979,Fintech,Starter,149,Annual,2025-07-22,,Active,False
+ACC-00679,Strata Works 463,EdTech,Enterprise,2499,Annual,2026-03-11,,Active,False
+ACC-00680,BlueFin Capital 481,DevOps & Cloud,Enterprise,2499,Monthly,2026-03-09,,Active,True
+ACC-00681,Hyper Capital 728,Healthcare Tech,Professional,599,Annual,2025-12-28,,Active,False
+ACC-00682,Apex Works 862,E-Commerce / Retail,Starter,149,Monthly,2025-08-22,2026-09-15,Churned,False
+ACC-00683,Omni Labs 577,Healthcare Tech,Starter,149,Annual,2025-09-18,,Active,False
+ACC-00684,Strata Technologies 979,Cybersecurity,Professional,599,Annual,2025-05-14,,Active,False
+ACC-00685,Hyper Digital 221,Healthcare Tech,Enterprise,2499,Monthly,2025-07-14,,Active,False
+ACC-00686,Pulse Labs 952,Fintech,Professional,599,Annual,2026-03-20,,Active,False
+ACC-00687,Cloud Solutions 390,DevOps & Cloud,Professional,599,Annual,2026-03-20,,Active,False
+ACC-00688,Strata Solutions 197,HR Tech,Starter,149,Annual,2025-08-14,,Active,False
+ACC-00689,Sync Systems 548,HR Tech,Professional,599,Annual,2026-03-05,,Active,True
+ACC-00690,Synthetix Networks 891,Cybersecurity,Starter,149,Monthly,2026-02-12,,Active,False
+ACC-00691,BlueFin Analytics 715,Fintech,Starter,149,Monthly,2025-06-04,,Active,True
+ACC-00692,Synthetix Scale 892,E-Commerce / Retail,Starter,149,Monthly,2026-05-16,2026-08-03,Churned,False
+ACC-00693,Elevate Scale 361,E-Commerce / Retail,Professional,599,Monthly,2026-03-26,,Active,False
+ACC-00694,Synthetix Analytics 884,EdTech,Starter,149,Annual,2026-02-05,2026-04-24,Churned,False
+ACC-00695,Hyper Labs 748,E-Commerce / Retail,Starter,149,Monthly,2026-05-23,,Active,False
+ACC-00696,Sync Works 163,EdTech,Professional,599,Monthly,2025-04-30,,Active,True
+ACC-00697,Omni Solutions 317,E-Commerce / Retail,Starter,149,Annual,2026-06-05,2026-08-01,Churned,False
+ACC-00698,Vanguard Systems 230,HR Tech,Professional,599,Annual,2026-03-03,,Active,True
+ACC-00699,Omni Digital 379,E-Commerce / Retail,Starter,149,Annual,2026-05-25,,Active,False
+ACC-00700,Apex Networks 134,E-Commerce / Retail,Professional,599,Annual,2026-07-14,2026-09-19,Churned,False
+ACC-00701,Aero Analytics 342,Cybersecurity,Professional,599,Annual,2026-03-15,,Active,False
+ACC-00702,Nexus Networks 638,E-Commerce / Retail,Starter,149,Annual,2026-08-09,,Active,False
+ACC-00703,Omni Networks 656,DevOps & Cloud,Starter,149,Annual,2025-12-20,,Active,True
+ACC-00704,Vanguard Analytics 243,E-Commerce / Retail,Starter,149,Annual,2026-08-31,2026-10-23,Churned,False
+ACC-00705,Quantum Digital 918,EdTech,Starter,149,Annual,2026-06-25,,Active,False
+ACC-00706,Vanguard Technologies 884,Fintech,Enterprise,2499,Monthly,2025-06-29,,Active,False
+ACC-00707,Nexus Logistics 180,EdTech,Starter,149,Monthly,2025-02-06,2025-11-20,Churned,False
+ACC-00708,Cloud Systems 799,EdTech,Professional,599,Annual,2025-01-25,2026-01-21,Churned,False
+ACC-00709,Sync Labs 680,EdTech,Starter,149,Annual,2025-06-23,2025-12-30,Churned,False
+ACC-00710,BlueFin Capital 139,Healthcare Tech,Professional,599,Annual,2025-04-24,2026-05-13,Churned,False
+ACC-00711,Synthetix Analytics 894,EdTech,Professional,599,Annual,2026-05-08,,Active,False
+ACC-00712,Sync Works 562,Healthcare Tech,Professional,599,Annual,2026-07-05,,Active,False
+ACC-00713,Peak Media 665,Cybersecurity,Professional,599,Annual,2025-09-14,,Active,False
+ACC-00714,Hyper Labs 462,E-Commerce / Retail,Starter,149,Annual,2025-12-28,2026-07-16,Churned,False
+ACC-00715,Apex Systems 545,HR Tech,Starter,149,Monthly,2025-10-19,2026-09-02,Churned,False
+ACC-00716,Apex Works 954,EdTech,Enterprise,2499,Annual,2025-09-03,2026-05-26,Churned,False
+ACC-00717,Aero Scale 246,HR Tech,Professional,599,Monthly,2026-05-16,,Active,False
+ACC-00718,Peak Networks 265,Healthcare Tech,Enterprise,2499,Annual,2026-08-24,,Active,False
+ACC-00719,Strata Labs 442,Cybersecurity,Starter,149,Monthly,2026-04-14,,Active,False
+ACC-00720,Strata Digital 674,Cybersecurity,Professional,599,Annual,2025-08-03,,Active,False
+ACC-00721,Vanguard Technologies 306,Fintech,Enterprise,2499,Annual,2026-02-10,,Active,False
+ACC-00722,Elevate Logistics 338,Fintech,Starter,149,Monthly,2024-12-21,,Active,True
+ACC-00723,Pulse Digital 285,Healthcare Tech,Starter,149,Annual,2026-01-23,,Active,False
+ACC-00724,Sync Systems 515,Healthcare Tech,Professional,599,Annual,2026-01-05,,Active,False
+ACC-00725,Synthetix Solutions 723,HR Tech,Professional,599,Monthly,2025-10-05,2026-02-01,Churned,False
+ACC-00726,Cloud Digital 804,EdTech,Professional,599,Monthly,2026-05-11,,Active,False
+ACC-00727,Strata Networks 858,Fintech,Starter,149,Monthly,2025-07-13,,Active,False
+ACC-00728,Hyper Works 44,Healthcare Tech,Professional,599,Annual,2025-02-05,,Active,False
+ACC-00729,Elevate Networks 707,E-Commerce / Retail,Starter,149,Annual,2025-04-12,,Active,True
+ACC-00730,Pulse Digital 502,Cybersecurity,Starter,149,Annual,2025-05-23,,Active,True
+ACC-00731,Data Labs 251,Cybersecurity,Starter,149,Annual,2025-09-29,2026-04-03,Churned,False
+ACC-00732,Pulse Networks 818,Healthcare Tech,Professional,599,Monthly,2024-12-14,,Active,False
+ACC-00733,Sync Analytics 799,Fintech,Professional,599,Monthly,2025-04-11,,Active,False
+ACC-00734,Omni Capital 71,Fintech,Professional,599,Annual,2026-08-23,2026-10-24,Churned,False
+ACC-00735,Pulse Technologies 509,Healthcare Tech,Starter,149,Annual,2026-05-26,,Active,False
+ACC-00736,BlueFin Works 207,Fintech,Enterprise,2499,Annual,2025-11-22,,Active,True
+ACC-00737,Cloud Solutions 733,EdTech,Starter,149,Annual,2025-08-29,,Active,False
+ACC-00738,Vanguard Media 366,E-Commerce / Retail,Professional,599,Annual,2026-02-23,,Active,False
+ACC-00739,Vanguard Labs 553,Healthcare Tech,Starter,149,Annual,2025-08-30,,Active,False
+ACC-00740,BlueFin Systems 804,Cybersecurity,Starter,149,Annual,2025-11-24,,Active,False
+ACC-00741,Synthetix Scale 254,E-Commerce / Retail,Professional,599,Annual,2025-01-04,,Active,False
+ACC-00742,Quantum Logistics 546,Cybersecurity,Starter,149,Annual,2026-05-19,2026-08-08,Churned,False
+ACC-00743,Omni Networks 666,E-Commerce / Retail,Professional,599,Monthly,2025-02-07,,Active,True
+ACC-00744,Sync Technologies 904,Fintech,Professional,599,Monthly,2025-02-18,,Active,True
+ACC-00745,Quantum Capital 511,DevOps & Cloud,Starter,149,Annual,2026-06-28,2026-09-27,Churned,False
+ACC-00746,Hyper Scale 745,Fintech,Enterprise,2499,Monthly,2025-06-02,,Active,False
+ACC-00747,Nexus Solutions 830,Cybersecurity,Starter,149,Monthly,2025-11-05,,Active,False
+ACC-00748,Peak Analytics 823,Cybersecurity,Professional,599,Monthly,2026-07-25,,Active,True
+ACC-00749,Nexus Digital 89,Healthcare Tech,Enterprise,2499,Annual,2025-02-08,,Active,False
+ACC-00750,Quantum Logistics 207,DevOps & Cloud,Professional,599,Annual,2025-07-13,,Active,False
+ACC-00751,Peak Works 118,HR Tech,Starter,149,Annual,2026-06-14,,Active,False
+ACC-00752,Peak Labs 180,HR Tech,Enterprise,2499,Monthly,2026-05-18,,Active,False
+ACC-00753,Vanguard Media 624,EdTech,Professional,599,Annual,2025-09-19,,Active,False
+ACC-00754,Synthetix Networks 792,Cybersecurity,Starter,149,Annual,2025-09-28,,Active,False
+ACC-00755,Data Networks 794,DevOps & Cloud,Starter,149,Annual,2025-07-19,,Active,False
+ACC-00756,Quantum Systems 753,Fintech,Professional,599,Annual,2026-07-04,2026-09-04,Churned,False
+ACC-00757,Aero Systems 317,Healthcare Tech,Professional,599,Monthly,2025-09-19,2026-10-22,Churned,False
+ACC-00758,Strata Media 533,DevOps & Cloud,Professional,599,Annual,2026-06-09,2026-07-28,Churned,False
+ACC-00759,BlueFin Analytics 169,Healthcare Tech,Enterprise,2499,Annual,2025-11-11,,Active,False
+ACC-00760,Strata Digital 104,DevOps & Cloud,Professional,599,Annual,2026-06-06,,Active,False
+ACC-00761,Omni Solutions 187,EdTech,Starter,149,Annual,2026-06-14,,Active,True
+ACC-00762,Aero Systems 758,HR Tech,Starter,149,Annual,2025-11-26,2026-02-07,Churned,False
+ACC-00763,Omni Analytics 910,HR Tech,Starter,149,Annual,2026-01-01,,Active,True
+ACC-00764,Hyper Works 678,HR Tech,Professional,599,Annual,2024-11-12,,Active,False
+ACC-00765,Cloud Digital 546,Fintech,Starter,149,Annual,2026-05-07,,Active,False
+ACC-00766,Hyper Technologies 61,Cybersecurity,Professional,599,Annual,2025-12-08,,Active,False
+ACC-00767,Nexus Logistics 452,E-Commerce / Retail,Professional,599,Annual,2025-04-01,2025-06-27,Churned,False
+ACC-00768,Elevate Scale 773,Fintech,Enterprise,2499,Annual,2025-12-14,,Active,False
+ACC-00769,Peak Works 143,HR Tech,Starter,149,Monthly,2026-03-08,,Active,False
+ACC-00770,Data Media 640,Cybersecurity,Professional,599,Annual,2025-07-11,,Active,False
+ACC-00771,Peak Analytics 711,DevOps & Cloud,Starter,149,Monthly,2025-02-24,,Active,False
+ACC-00772,Synthetix Logistics 338,E-Commerce / Retail,Professional,599,Annual,2024-11-25,,Active,True
+ACC-00773,Synthetix Scale 851,HR Tech,Starter,149,Annual,2026-08-01,2026-09-17,Churned,False
+ACC-00774,Hyper Logistics 711,E-Commerce / Retail,Starter,149,Monthly,2025-01-27,2025-04-09,Churned,False
+ACC-00775,Hyper Scale 958,Healthcare Tech,Professional,599,Annual,2024-11-15,,Active,False
+ACC-00776,Aero Solutions 492,Fintech,Starter,149,Annual,2025-06-03,,Active,False
+ACC-00777,Strata Media 504,DevOps & Cloud,Starter,149,Annual,2025-03-25,,Active,False
+ACC-00778,Quantum Scale 937,Cybersecurity,Professional,599,Annual,2024-12-15,,Active,True
+ACC-00779,Data Works 642,E-Commerce / Retail,Professional,599,Monthly,2026-02-20,,Active,True
+ACC-00780,Quantum Capital 287,Cybersecurity,Professional,599,Annual,2025-11-04,,Active,True
+ACC-00781,Quantum Logistics 399,DevOps & Cloud,Professional,599,Annual,2025-02-10,,Active,False
+ACC-00782,Nexus Technologies 213,DevOps & Cloud,Professional,599,Annual,2026-05-29,,Active,True
+ACC-00783,Hyper Media 322,E-Commerce / Retail,Starter,149,Annual,2025-12-08,,Active,True
+ACC-00784,Synthetix Analytics 650,E-Commerce / Retail,Starter,149,Monthly,2026-03-29,2026-05-28,Churned,False
+ACC-00785,Strata Networks 921,HR Tech,Starter,149,Monthly,2026-05-23,,Active,False
+ACC-00786,Omni Networks 682,Healthcare Tech,Enterprise,2499,Monthly,2025-11-27,,Active,False
+ACC-00787,Hyper Networks 256,DevOps & Cloud,Professional,599,Monthly,2026-01-11,,Active,False
+ACC-00788,Omni Solutions 565,Healthcare Tech,Starter,149,Monthly,2026-08-31,2026-11-01,Churned,False
+ACC-00789,Data Technologies 326,Cybersecurity,Professional,599,Annual,2026-04-21,,Active,False
+ACC-00790,Sync Capital 965,DevOps & Cloud,Enterprise,2499,Monthly,2025-09-22,2026-08-05,Churned,False
+ACC-00791,Pulse Technologies 335,HR Tech,Starter,149,Monthly,2024-12-01,,Active,False
+ACC-00792,Peak Networks 320,EdTech,Professional,599,Annual,2026-08-15,,Active,False
+ACC-00793,Data Labs 144,Healthcare Tech,Professional,599,Monthly,2026-07-20,,Active,False
+ACC-00794,Hyper Scale 247,Healthcare Tech,Professional,599,Annual,2024-11-27,,Active,False
+ACC-00795,Elevate Technologies 524,HR Tech,Starter,149,Annual,2026-02-24,,Active,False
+ACC-00796,Quantum Solutions 495,Healthcare Tech,Enterprise,2499,Monthly,2025-05-17,,Active,False
+ACC-00797,Apex Digital 983,EdTech,Enterprise,2499,Monthly,2025-05-27,,Active,True
+ACC-00798,BlueFin Scale 511,Cybersecurity,Professional,599,Annual,2026-02-12,,Active,False
+ACC-00799,Cloud Scale 762,HR Tech,Professional,599,Annual,2025-09-17,,Active,False
+ACC-00800,Cloud Media 121,EdTech,Enterprise,2499,Annual,2024-12-14,,Active,False
+ACC-00801,Quantum Works 50,DevOps & Cloud,Professional,599,Annual,2026-04-13,,Active,False
+ACC-00802,Data Digital 460,EdTech,Starter,149,Annual,2025-08-20,,Active,False
+ACC-00803,Cloud Works 539,Healthcare Tech,Professional,599,Annual,2026-08-24,,Active,False
+ACC-00804,Pulse Technologies 807,DevOps & Cloud,Professional,599,Annual,2026-05-14,2026-08-19,Churned,False
+ACC-00805,Omni Solutions 35,Healthcare Tech,Starter,149,Annual,2026-06-28,,Active,False
+ACC-00806,BlueFin Labs 266,E-Commerce / Retail,Professional,599,Annual,2026-08-27,,Active,False
+ACC-00807,Pulse Labs 126,Cybersecurity,Enterprise,2499,Annual,2026-08-12,,Active,False
+ACC-00808,Quantum Works 820,DevOps & Cloud,Enterprise,2499,Annual,2025-04-13,,Active,False
+ACC-00809,Vanguard Analytics 589,HR Tech,Professional,599,Annual,2025-04-03,2025-07-31,Churned,False
+ACC-00810,Vanguard Works 62,EdTech,Starter,149,Annual,2025-09-13,,Active,False
+ACC-00811,Aero Capital 195,Fintech,Enterprise,2499,Monthly,2025-05-27,2026-08-06,Churned,False
+ACC-00812,Strata Systems 479,EdTech,Professional,599,Annual,2026-05-11,,Active,False
+ACC-00813,Elevate Logistics 232,DevOps & Cloud,Starter,149,Annual,2026-03-03,,Active,False
+ACC-00814,Apex Logistics 913,DevOps & Cloud,Enterprise,2499,Annual,2026-07-28,,Active,False
+ACC-00815,Data Systems 199,Healthcare Tech,Enterprise,2499,Monthly,2026-08-31,,Active,True
+ACC-00816,Cloud Capital 601,HR Tech,Professional,599,Annual,2025-09-02,,Active,True
+ACC-00817,Pulse Networks 192,Healthcare Tech,Professional,599,Annual,2025-08-19,,Active,False
+ACC-00818,Vanguard Solutions 777,DevOps & Cloud,Starter,149,Annual,2024-12-07,2025-06-23,Churned,False
+ACC-00819,Omni Analytics 929,EdTech,Starter,149,Monthly,2026-01-12,,Active,True
+ACC-00820,Elevate Technologies 134,Cybersecurity,Starter,149,Annual,2025-10-04,,Active,False
+ACC-00821,Data Scale 69,Fintech,Professional,599,Annual,2026-08-07,,Active,True
+ACC-00822,Aero Networks 633,HR Tech,Starter,149,Annual,2025-07-24,,Active,False
+ACC-00823,Synthetix Technologies 639,DevOps & Cloud,Starter,149,Annual,2026-04-17,,Active,False
+ACC-00824,Vanguard Scale 248,Cybersecurity,Starter,149,Annual,2025-05-18,2025-07-14,Churned,False
+ACC-00825,BlueFin Capital 825,Fintech,Professional,599,Annual,2025-06-01,,Active,False
+ACC-00826,Peak Systems 351,E-Commerce / Retail,Enterprise,2499,Annual,2026-08-15,,Active,False
+ACC-00827,Aero Digital 819,Fintech,Starter,149,Annual,2025-09-04,,Active,False
+ACC-00828,Apex Labs 712,E-Commerce / Retail,Starter,149,Annual,2025-12-11,,Active,False
+ACC-00829,Apex Technologies 208,E-Commerce / Retail,Professional,599,Annual,2026-03-06,,Active,False
+ACC-00830,Sync Solutions 169,Cybersecurity,Professional,599,Annual,2026-05-04,,Active,False
+ACC-00831,Peak Works 67,HR Tech,Starter,149,Annual,2025-09-03,,Active,False
+ACC-00832,Apex Logistics 601,Cybersecurity,Professional,599,Annual,2025-10-29,2026-02-27,Churned,False
+ACC-00833,Strata Systems 357,EdTech,Starter,149,Annual,2026-05-02,,Active,False
+ACC-00834,Pulse Digital 732,HR Tech,Starter,149,Annual,2024-12-03,2025-03-02,Churned,False
+ACC-00835,Elevate Logistics 390,EdTech,Professional,599,Annual,2025-06-10,,Active,True
+ACC-00836,Synthetix Systems 806,Healthcare Tech,Starter,149,Monthly,2026-01-29,,Active,False
+ACC-00837,Sync Logistics 358,EdTech,Enterprise,2499,Annual,2026-04-21,,Active,False
+ACC-00838,Pulse Media 702,Healthcare Tech,Starter,149,Monthly,2024-12-08,,Active,False
+ACC-00839,Pulse Systems 328,Fintech,Professional,599,Annual,2026-07-02,,Active,False
+ACC-00840,Cloud Labs 543,HR Tech,Professional,599,Annual,2025-09-16,2026-04-08,Churned,False
+ACC-00841,Data Analytics 215,Healthcare Tech,Starter,149,Annual,2025-08-11,,Active,False
+ACC-00842,Pulse Digital 162,Healthcare Tech,Professional,599,Annual,2025-02-26,2026-02-24,Churned,False
+ACC-00843,Pulse Logistics 565,E-Commerce / Retail,Starter,149,Annual,2025-09-23,2026-04-01,Churned,False
+ACC-00844,Hyper Technologies 82,E-Commerce / Retail,Enterprise,2499,Annual,2025-10-13,,Active,True
+ACC-00845,Apex Solutions 934,Cybersecurity,Starter,149,Monthly,2025-02-17,,Active,True
+ACC-00846,Quantum Technologies 731,DevOps & Cloud,Starter,149,Annual,2026-08-07,,Active,False
+ACC-00847,Synthetix Digital 350,HR Tech,Starter,149,Monthly,2026-05-01,2026-10-12,Churned,False
+ACC-00848,Sync Labs 842,HR Tech,Enterprise,2499,Annual,2026-02-23,,Active,False
+ACC-00849,BlueFin Solutions 247,Healthcare Tech,Professional,599,Monthly,2026-07-25,,Active,False
+ACC-00850,Vanguard Works 949,Cybersecurity,Professional,599,Annual,2025-09-29,,Active,True
+ACC-00851,Elevate Labs 369,EdTech,Starter,149,Annual,2025-04-24,2025-12-03,Churned,False
+ACC-00852,Sync Media 115,EdTech,Professional,599,Annual,2025-02-18,,Active,False
+ACC-00853,Aero Media 482,EdTech,Starter,149,Annual,2025-12-29,2026-06-16,Churned,False
+ACC-00854,Vanguard Solutions 403,Fintech,Enterprise,2499,Annual,2025-06-02,,Active,False
+ACC-00855,Peak Scale 816,E-Commerce / Retail,Starter,149,Annual,2025-06-30,2026-07-22,Churned,False
+ACC-00856,Nexus Works 963,Cybersecurity,Starter,149,Annual,2026-03-14,2026-09-27,Churned,False
+ACC-00857,BlueFin Analytics 578,Fintech,Starter,149,Annual,2025-04-30,2026-01-07,Churned,False
+ACC-00858,Nexus Scale 121,Cybersecurity,Professional,599,Annual,2025-11-24,,Active,False
+ACC-00859,Cloud Labs 232,HR Tech,Professional,599,Monthly,2026-06-18,,Active,False
+ACC-00860,Apex Technologies 686,Healthcare Tech,Starter,149,Annual,2026-04-29,2026-10-05,Churned,False
+ACC-00861,Data Logistics 707,E-Commerce / Retail,Professional,599,Annual,2026-06-07,,Active,False
+ACC-00862,Peak Works 947,E-Commerce / Retail,Professional,599,Monthly,2026-06-20,2026-10-08,Churned,False
+ACC-00863,Quantum Technologies 882,E-Commerce / Retail,Professional,599,Monthly,2025-11-14,,Active,False
+ACC-00864,Apex Works 583,HR Tech,Starter,149,Annual,2025-02-21,,Active,False
+ACC-00865,Hyper Networks 729,DevOps & Cloud,Starter,149,Annual,2026-08-03,2026-10-11,Churned,False
+ACC-00866,Quantum Networks 455,DevOps & Cloud,Professional,599,Monthly,2025-04-27,,Active,False
+ACC-00867,Quantum Analytics 870,EdTech,Starter,149,Monthly,2025-08-23,,Active,False
+ACC-00868,Sync Systems 83,Cybersecurity,Starter,149,Monthly,2025-03-28,,Active,False
+ACC-00869,Peak Technologies 96,Healthcare Tech,Enterprise,2499,Annual,2025-12-31,,Active,False
+ACC-00870,Peak Scale 194,EdTech,Enterprise,2499,Annual,2026-01-09,,Active,False
+ACC-00871,Synthetix Logistics 200,EdTech,Starter,149,Annual,2024-11-08,,Active,False
+ACC-00872,Hyper Works 523,E-Commerce / Retail,Starter,149,Annual,2026-05-14,,Active,True
+ACC-00873,Cloud Scale 504,Cybersecurity,Professional,599,Annual,2025-02-24,,Active,False
+ACC-00874,Nexus Technologies 757,Cybersecurity,Starter,149,Annual,2025-08-14,,Active,True
+ACC-00875,Nexus Logistics 493,Cybersecurity,Starter,149,Annual,2025-01-19,,Active,False
+ACC-00876,Aero Scale 64,E-Commerce / Retail,Starter,149,Annual,2024-11-12,,Active,False
+ACC-00877,Elevate Scale 761,E-Commerce / Retail,Professional,599,Annual,2025-10-28,,Active,False
+ACC-00878,Aero Technologies 46,Cybersecurity,Professional,599,Annual,2025-09-08,,Active,False
+ACC-00879,Cloud Capital 494,DevOps & Cloud,Starter,149,Monthly,2026-06-10,2026-08-31,Churned,False
+ACC-00880,Apex Digital 506,Fintech,Starter,149,Monthly,2026-04-02,2026-07-27,Churned,False
+ACC-00881,Strata Technologies 640,E-Commerce / Retail,Starter,149,Annual,2025-07-22,2025-11-01,Churned,False
+ACC-00882,Vanguard Scale 766,Healthcare Tech,Professional,599,Annual,2026-02-01,,Active,True
+ACC-00883,Hyper Solutions 195,HR Tech,Starter,149,Annual,2024-12-04,2025-03-02,Churned,False
+ACC-00884,Sync Scale 966,HR Tech,Starter,149,Monthly,2026-03-23,,Active,False
+ACC-00885,Quantum Logistics 686,EdTech,Professional,599,Annual,2026-08-15,2026-10-21,Churned,False
+ACC-00886,Cloud Capital 280,HR Tech,Starter,149,Monthly,2024-12-24,2025-08-30,Churned,False
+ACC-00887,Elevate Digital 497,Cybersecurity,Professional,599,Annual,2025-06-28,,Active,False
+ACC-00888,Elevate Digital 158,DevOps & Cloud,Starter,149,Annual,2024-11-13,2025-08-14,Churned,False
+ACC-00889,Quantum Capital 333,DevOps & Cloud,Starter,149,Annual,2024-12-13,2025-10-26,Churned,False
+ACC-00890,Synthetix Networks 635,Cybersecurity,Starter,149,Annual,2025-10-10,2026-01-13,Churned,False
+ACC-00891,Strata Capital 608,EdTech,Professional,599,Annual,2025-07-06,,Active,False
+ACC-00892,Data Media 355,Cybersecurity,Enterprise,2499,Annual,2025-05-04,,Active,True
+ACC-00893,Apex Labs 22,EdTech,Professional,599,Monthly,2026-04-22,2026-09-28,Churned,False
+ACC-00894,Synthetix Logistics 752,E-Commerce / Retail,Starter,149,Annual,2025-05-17,2026-05-14,Churned,False
+ACC-00895,Nexus Systems 971,DevOps & Cloud,Professional,599,Annual,2025-06-11,,Active,False
+ACC-00896,Pulse Labs 886,DevOps & Cloud,Starter,149,Monthly,2025-11-20,,Active,False
+ACC-00897,Vanguard Labs 722,Healthcare Tech,Starter,149,Annual,2025-08-29,,Active,False
+ACC-00898,BlueFin Digital 797,EdTech,Enterprise,2499,Annual,2025-09-28,,Active,False
+ACC-00899,Strata Systems 401,EdTech,Starter,149,Annual,2025-01-01,2025-06-30,Churned,False
+ACC-00900,Vanguard Solutions 81,EdTech,Starter,149,Monthly,2026-07-18,,Active,False
+ACC-00901,Pulse Technologies 563,HR Tech,Starter,149,Annual,2025-06-12,,Active,True
+ACC-00902,BlueFin Works 275,Fintech,Starter,149,Monthly,2025-01-14,2026-03-07,Churned,False
+ACC-00903,Strata Solutions 29,EdTech,Starter,149,Monthly,2026-08-31,,Active,False
+ACC-00904,Quantum Digital 165,Cybersecurity,Professional,599,Annual,2025-12-06,,Active,False
+ACC-00905,Quantum Works 809,HR Tech,Starter,149,Monthly,2026-05-08,2026-09-28,Churned,False
+ACC-00906,Elevate Labs 590,DevOps & Cloud,Enterprise,2499,Annual,2025-10-08,,Active,False
+ACC-00907,Nexus Analytics 557,HR Tech,Professional,599,Annual,2025-01-22,,Active,False
+ACC-00908,Aero Capital 217,Healthcare Tech,Starter,149,Annual,2024-12-11,,Active,False
+ACC-00909,Aero Works 409,Fintech,Starter,149,Annual,2025-11-03,,Active,False
+ACC-00910,BlueFin Works 204,Healthcare Tech,Starter,149,Monthly,2025-05-17,2026-04-30,Churned,False
+ACC-00911,Hyper Solutions 408,Fintech,Professional,599,Annual,2026-08-21,,Active,False
+ACC-00912,BlueFin Systems 47,E-Commerce / Retail,Starter,149,Monthly,2025-10-12,,Active,True
+ACC-00913,Pulse Logistics 836,Cybersecurity,Professional,599,Annual,2026-04-20,,Active,False
+ACC-00914,Sync Works 603,Healthcare Tech,Starter,149,Monthly,2024-12-08,,Active,False
+ACC-00915,Apex Solutions 938,DevOps & Cloud,Professional,599,Monthly,2025-07-07,,Active,True
+ACC-00916,Vanguard Capital 61,E-Commerce / Retail,Starter,149,Monthly,2026-02-11,,Active,False
+ACC-00917,Nexus Labs 126,EdTech,Starter,149,Annual,2026-07-24,2026-10-28,Churned,False
+ACC-00918,Data Networks 355,HR Tech,Enterprise,2499,Annual,2025-12-17,,Active,False
+ACC-00919,Sync Analytics 866,HR Tech,Professional,599,Monthly,2024-12-17,,Active,False
+ACC-00920,Pulse Digital 154,HR Tech,Starter,149,Annual,2025-04-22,,Active,False
+ACC-00921,BlueFin Logistics 957,DevOps & Cloud,Enterprise,2499,Monthly,2025-03-17,,Active,False
+ACC-00922,Quantum Technologies 26,EdTech,Professional,599,Monthly,2024-11-07,2025-02-05,Churned,False
+ACC-00923,Aero Networks 720,HR Tech,Enterprise,2499,Annual,2025-03-10,,Active,False
+ACC-00924,BlueFin Networks 254,Healthcare Tech,Professional,599,Annual,2024-12-09,,Active,False
+ACC-00925,Nexus Capital 856,HR Tech,Starter,149,Annual,2025-10-23,,Active,False
+ACC-00926,Data Labs 552,Fintech,Starter,149,Annual,2025-11-06,,Active,False
+ACC-00927,Hyper Solutions 798,Cybersecurity,Starter,149,Annual,2025-06-02,2025-10-24,Churned,False
+ACC-00928,Pulse Technologies 711,HR Tech,Professional,599,Annual,2026-03-25,2026-10-27,Churned,False
+ACC-00929,Cloud Systems 670,E-Commerce / Retail,Professional,599,Annual,2025-06-03,,Active,False
+ACC-00930,BlueFin Systems 116,Cybersecurity,Starter,149,Monthly,2026-05-05,2026-06-26,Churned,False
+ACC-00931,Elevate Media 128,Fintech,Starter,149,Monthly,2026-01-30,,Active,False
+ACC-00932,Data Works 703,E-Commerce / Retail,Professional,599,Monthly,2025-02-21,,Active,True
+ACC-00933,Peak Logistics 394,Healthcare Tech,Enterprise,2499,Monthly,2026-02-26,,Active,True
+ACC-00934,Peak Technologies 231,DevOps & Cloud,Professional,599,Annual,2025-05-02,,Active,True
+ACC-00935,Data Capital 377,E-Commerce / Retail,Starter,149,Monthly,2025-10-10,2026-09-11,Churned,False
+ACC-00936,Cloud Digital 149,Fintech,Starter,149,Annual,2026-02-13,,Active,False
+ACC-00937,Hyper Digital 628,Healthcare Tech,Starter,149,Annual,2026-07-20,,Active,False
+ACC-00938,Hyper Labs 431,HR Tech,Enterprise,2499,Annual,2026-03-16,,Active,False
+ACC-00939,Elevate Solutions 295,Fintech,Starter,149,Annual,2026-01-13,,Active,False
+ACC-00940,Omni Networks 603,Healthcare Tech,Professional,599,Annual,2025-04-02,,Active,False
+ACC-00941,Peak Systems 51,EdTech,Starter,149,Annual,2026-04-01,2026-09-28,Churned,False
+ACC-00942,Quantum Solutions 839,HR Tech,Professional,599,Annual,2025-02-09,,Active,False
+ACC-00943,Apex Works 759,EdTech,Professional,599,Monthly,2025-03-16,,Active,False
+ACC-00944,Nexus Systems 501,Cybersecurity,Professional,599,Annual,2025-04-15,,Active,False
+ACC-00945,Apex Solutions 484,HR Tech,Starter,149,Monthly,2025-12-21,2026-08-12,Churned,False
+ACC-00946,BlueFin Works 658,Fintech,Starter,149,Annual,2025-01-12,,Active,False
+ACC-00947,Cloud Digital 446,HR Tech,Starter,149,Annual,2026-07-21,,Active,False
+ACC-00948,Nexus Scale 911,E-Commerce / Retail,Enterprise,2499,Annual,2024-12-27,,Active,False
+ACC-00949,Synthetix Systems 123,EdTech,Enterprise,2499,Annual,2026-02-20,,Active,False
+ACC-00950,Vanguard Capital 582,Cybersecurity,Professional,599,Monthly,2026-05-29,,Active,False
+ACC-00951,Omni Logistics 562,Fintech,Professional,599,Annual,2026-03-05,,Active,False
+ACC-00952,Data Works 789,Healthcare Tech,Professional,599,Annual,2025-10-28,,Active,False
+ACC-00953,Peak Digital 65,Fintech,Starter,149,Annual,2025-10-20,,Active,False
+ACC-00954,Pulse Solutions 736,DevOps & Cloud,Enterprise,2499,Annual,2026-04-30,,Active,False
+ACC-00955,Synthetix Capital 978,Cybersecurity,Starter,149,Monthly,2025-05-12,,Active,False
+ACC-00956,Nexus Networks 929,Healthcare Tech,Starter,149,Annual,2025-01-18,2025-07-23,Churned,False
+ACC-00957,Pulse Works 161,EdTech,Professional,599,Monthly,2025-05-29,,Active,False
+ACC-00958,Aero Networks 708,DevOps & Cloud,Starter,149,Monthly,2026-03-01,2026-08-06,Churned,False
+ACC-00959,Apex Digital 203,Fintech,Starter,149,Monthly,2025-06-26,,Active,False
+ACC-00960,Omni Networks 602,E-Commerce / Retail,Professional,599,Annual,2026-08-24,,Active,False
+ACC-00961,BlueFin Solutions 321,DevOps & Cloud,Starter,149,Monthly,2025-09-10,2026-03-07,Churned,False
+ACC-00962,Hyper Solutions 390,E-Commerce / Retail,Professional,599,Monthly,2025-04-01,,Active,False
+ACC-00963,Vanguard Scale 956,Healthcare Tech,Starter,149,Annual,2026-05-03,2026-07-31,Churned,False
+ACC-00964,Sync Technologies 253,Fintech,Starter,149,Monthly,2025-09-21,,Active,False
+ACC-00965,Synthetix Technologies 220,DevOps & Cloud,Starter,149,Annual,2024-12-06,,Active,False
+ACC-00966,Sync Analytics 469,DevOps & Cloud,Starter,149,Monthly,2026-05-01,2026-06-21,Churned,False
+ACC-00967,Quantum Solutions 796,Healthcare Tech,Professional,599,Annual,2025-09-24,2026-08-14,Churned,False
+ACC-00968,Omni Capital 732,E-Commerce / Retail,Starter,149,Annual,2025-08-24,,Active,False
+ACC-00969,Sync Scale 756,EdTech,Professional,599,Annual,2025-02-24,,Active,False
+ACC-00970,Sync Capital 574,Fintech,Professional,599,Annual,2024-11-26,,Active,False
+ACC-00971,BlueFin Analytics 104,E-Commerce / Retail,Professional,599,Monthly,2026-07-16,,Active,False
+ACC-00972,Hyper Digital 210,Fintech,Enterprise,2499,Monthly,2026-05-06,,Active,False
+ACC-00973,Nexus Media 413,Healthcare Tech,Professional,599,Annual,2025-09-22,,Active,False
+ACC-00974,Cloud Capital 379,EdTech,Starter,149,Monthly,2026-01-12,,Active,False
+ACC-00975,Aero Analytics 369,E-Commerce / Retail,Starter,149,Annual,2026-05-29,2026-10-14,Churned,False
+ACC-00976,BlueFin Works 435,HR Tech,Starter,149,Annual,2025-08-23,2026-10-14,Churned,False
+ACC-00977,Peak Works 927,EdTech,Professional,599,Monthly,2026-06-25,,Active,True
+ACC-00978,Aero Solutions 898,DevOps & Cloud,Starter,149,Annual,2025-01-07,,Active,False
+ACC-00979,Quantum Labs 16,EdTech,Professional,599,Annual,2025-08-07,,Active,False
+ACC-00980,Sync Logistics 200,HR Tech,Professional,599,Annual,2025-08-24,,Active,True
+ACC-00981,Aero Scale 321,EdTech,Starter,149,Annual,2026-02-18,2026-10-23,Churned,False
+ACC-00982,Apex Technologies 278,E-Commerce / Retail,Professional,599,Annual,2026-08-14,,Active,False
+ACC-00983,Aero Networks 193,EdTech,Starter,149,Annual,2026-08-23,2026-10-10,Churned,False
+ACC-00984,Strata Solutions 78,DevOps & Cloud,Starter,149,Annual,2025-11-06,,Active,False
+ACC-00985,Strata Capital 712,EdTech,Professional,599,Annual,2025-03-03,,Active,False
+ACC-00986,Apex Digital 176,DevOps & Cloud,Professional,599,Monthly,2025-03-30,,Active,False
+ACC-00987,Sync Analytics 177,Fintech,Professional,599,Annual,2025-11-05,,Active,False
+ACC-00988,Synthetix Systems 306,E-Commerce / Retail,Starter,149,Annual,2026-08-17,,Active,False
+ACC-00989,Vanguard Labs 623,HR Tech,Starter,149,Monthly,2026-05-11,2026-09-13,Churned,False
+ACC-00990,Aero Digital 711,Cybersecurity,Professional,599,Annual,2025-11-07,2026-10-14,Churned,False
+ACC-00991,Synthetix Technologies 23,Healthcare Tech,Professional,599,Annual,2025-08-16,,Active,False
+ACC-00992,Omni Technologies 114,Healthcare Tech,Professional,599,Monthly,2026-03-31,,Active,False
+ACC-00993,Pulse Networks 481,Fintech,Starter,149,Monthly,2025-03-15,,Active,False
+ACC-00994,Aero Works 381,Healthcare Tech,Professional,599,Annual,2026-07-05,,Active,False
+ACC-00995,Vanguard Works 321,Fintech,Starter,149,Annual,2025-03-02,2026-04-06,Churned,False
+ACC-00996,Sync Works 242,E-Commerce / Retail,Starter,149,Monthly,2025-06-03,2025-08-27,Churned,False
+ACC-00997,Peak Works 791,HR Tech,Enterprise,2499,Monthly,2025-01-19,2025-11-07,Churned,False
+ACC-00998,Peak Systems 211,Fintech,Starter,149,Monthly,2026-04-10,,Active,False
+ACC-00999,Strata Systems 77,E-Commerce / Retail,Enterprise,2499,Annual,2024-11-11,,Active,False
+ACC-01000,Data Scale 932,Healthcare Tech,Starter,149,Monthly,2025-10-26,2026-02-22,Churned,False
+ACC-01001,Strata Scale 366,E-Commerce / Retail,Starter,149,Monthly,2026-03-28,,Active,False
+ACC-01002,Nexus Labs 849,DevOps & Cloud,Professional,599,Monthly,2026-04-26,2026-07-29,Churned,False
+ACC-01003,Aero Technologies 933,HR Tech,Enterprise,2499,Annual,2024-11-05,,Active,True
+ACC-01004,Data Media 881,Cybersecurity,Professional,599,Annual,2025-11-11,,Active,False
+ACC-01005,Pulse Technologies 864,E-Commerce / Retail,Professional,599,Annual,2026-01-09,2026-04-22,Churned,False
+ACC-01006,Peak Labs 789,E-Commerce / Retail,Professional,599,Monthly,2026-02-21,2026-05-11,Churned,False
+ACC-01007,Elevate Analytics 731,E-Commerce / Retail,Professional,599,Annual,2024-12-12,2025-10-05,Churned,False
+ACC-01008,Pulse Networks 300,EdTech,Professional,599,Annual,2025-09-16,,Active,False
+ACC-01009,Hyper Media 427,E-Commerce / Retail,Starter,149,Annual,2025-05-13,,Active,False
+ACC-01010,Elevate Capital 386,Healthcare Tech,Professional,599,Monthly,2026-03-19,,Active,False
+ACC-01011,Nexus Labs 156,EdTech,Starter,149,Annual,2026-06-28,,Active,False
+ACC-01012,Vanguard Labs 382,Healthcare Tech,Enterprise,2499,Annual,2025-05-25,,Active,False
+ACC-01013,Pulse Logistics 868,EdTech,Enterprise,2499,Annual,2026-03-27,,Active,False
+ACC-01014,Strata Capital 975,EdTech,Starter,149,Annual,2026-03-03,,Active,False
+ACC-01015,Elevate Media 295,Healthcare Tech,Professional,599,Annual,2025-02-19,2025-12-11,Churned,False
+ACC-01016,Elevate Logistics 653,Healthcare Tech,Enterprise,2499,Monthly,2025-02-10,,Active,False
+ACC-01017,Elevate Capital 37,Healthcare Tech,Starter,149,Annual,2026-07-13,,Active,True
+ACC-01018,Pulse Labs 686,HR Tech,Professional,599,Annual,2026-03-20,,Active,False
+ACC-01019,Elevate Solutions 526,E-Commerce / Retail,Enterprise,2499,Annual,2025-10-18,,Active,False
+ACC-01020,Apex Systems 450,Fintech,Starter,149,Annual,2026-02-04,2026-06-25,Churned,False
+ACC-01021,BlueFin Solutions 46,Fintech,Professional,599,Monthly,2026-05-25,,Active,False
+ACC-01022,Vanguard Solutions 451,Healthcare Tech,Starter,149,Annual,2025-12-04,,Active,True
+ACC-01023,Elevate Capital 577,Cybersecurity,Enterprise,2499,Annual,2026-06-09,,Active,False
+ACC-01024,Vanguard Media 67,EdTech,Enterprise,2499,Annual,2026-03-22,,Active,False
+ACC-01025,Synthetix Digital 338,Fintech,Enterprise,2499,Monthly,2026-06-28,2026-09-27,Churned,False
+ACC-01026,Synthetix Works 607,Fintech,Professional,599,Annual,2025-10-16,,Active,False
+ACC-01027,Synthetix Networks 369,Fintech,Enterprise,2499,Annual,2025-07-09,,Active,False
+ACC-01028,Nexus Works 77,HR Tech,Professional,599,Annual,2025-02-26,,Active,True
+ACC-01029,Omni Systems 481,Cybersecurity,Starter,149,Annual,2026-06-05,,Active,False
+ACC-01030,Apex Works 490,DevOps & Cloud,Professional,599,Monthly,2025-09-21,,Active,False
+ACC-01031,Data Analytics 518,DevOps & Cloud,Starter,149,Annual,2025-10-14,2026-04-30,Churned,False
+ACC-01032,Synthetix Networks 216,EdTech,Professional,599,Annual,2025-01-17,,Active,False
+ACC-01033,Aero Digital 58,E-Commerce / Retail,Starter,149,Annual,2025-12-17,,Active,False
+ACC-01034,Nexus Works 874,DevOps & Cloud,Starter,149,Monthly,2026-06-30,2026-08-22,Churned,False
+ACC-01035,Elevate Networks 224,E-Commerce / Retail,Starter,149,Monthly,2026-08-30,,Active,False
+ACC-01036,Aero Networks 689,DevOps & Cloud,Professional,599,Annual,2025-05-24,,Active,False
+ACC-01037,BlueFin Capital 791,DevOps & Cloud,Starter,149,Monthly,2024-11-20,,Active,False
+ACC-01038,Vanguard Scale 521,Healthcare Tech,Professional,599,Annual,2026-02-22,,Active,False
+ACC-01039,Peak Scale 754,Cybersecurity,Starter,149,Monthly,2026-04-19,2026-09-29,Churned,False
+ACC-01040,Sync Logistics 164,Cybersecurity,Starter,149,Annual,2025-09-04,,Active,False
+ACC-01041,Nexus Capital 218,HR Tech,Professional,599,Annual,2025-08-01,,Active,False
+ACC-01042,Strata Capital 625,Healthcare Tech,Professional,599,Annual,2025-07-03,2025-11-23,Churned,False
+ACC-01043,Apex Logistics 826,HR Tech,Starter,149,Annual,2026-02-19,,Active,False
+ACC-01044,Peak Capital 937,Fintech,Professional,599,Monthly,2025-04-13,,Active,True
+ACC-01045,Strata Capital 573,Healthcare Tech,Enterprise,2499,Annual,2024-12-14,,Active,False
+ACC-01046,Apex Systems 890,Fintech,Professional,599,Annual,2026-07-10,,Active,True
+ACC-01047,Peak Analytics 697,Cybersecurity,Starter,149,Monthly,2025-12-12,,Active,False
+ACC-01048,Sync Logistics 124,DevOps & Cloud,Starter,149,Annual,2026-03-28,,Active,False
+ACC-01049,Strata Solutions 915,Fintech,Enterprise,2499,Monthly,2026-07-08,,Active,False
+ACC-01050,Omni Scale 764,EdTech,Starter,149,Annual,2025-06-30,,Active,False
+ACC-01051,Pulse Technologies 229,E-Commerce / Retail,Enterprise,2499,Annual,2025-12-24,,Active,False
+ACC-01052,Elevate Media 393,Cybersecurity,Professional,599,Monthly,2025-09-21,,Active,False
+ACC-01053,Hyper Digital 910,HR Tech,Enterprise,2499,Monthly,2025-11-07,,Active,False
+ACC-01054,Aero Systems 670,DevOps & Cloud,Professional,599,Monthly,2024-12-26,,Active,False
+ACC-01055,Hyper Digital 575,EdTech,Enterprise,2499,Annual,2026-08-17,,Active,False
+ACC-01056,Pulse Media 897,Healthcare Tech,Starter,149,Annual,2025-12-03,2026-08-06,Churned,False
+ACC-01057,Strata Digital 102,HR Tech,Professional,599,Monthly,2025-09-01,2026-01-06,Churned,False
+ACC-01058,BlueFin Capital 334,HR Tech,Starter,149,Annual,2025-12-22,,Active,False
+ACC-01059,Nexus Solutions 492,Cybersecurity,Professional,599,Annual,2025-10-07,,Active,False
+ACC-01060,Pulse Technologies 725,E-Commerce / Retail,Professional,599,Annual,2025-01-07,,Active,False
+ACC-01061,Omni Solutions 721,Fintech,Enterprise,2499,Monthly,2026-08-19,,Active,False
+ACC-01062,Sync Systems 420,Healthcare Tech,Enterprise,2499,Annual,2025-09-09,,Active,True
+ACC-01063,Vanguard Logistics 538,Cybersecurity,Professional,599,Annual,2025-03-14,,Active,False
+ACC-01064,Omni Solutions 499,HR Tech,Starter,149,Annual,2025-03-17,2026-04-17,Churned,False
+ACC-01065,Omni Digital 213,Fintech,Starter,149,Annual,2025-11-12,2026-07-08,Churned,False
+ACC-01066,Hyper Systems 980,Fintech,Professional,599,Annual,2026-08-25,,Active,False
+ACC-01067,Nexus Solutions 213,E-Commerce / Retail,Starter,149,Annual,2025-04-22,2026-04-18,Churned,False
+ACC-01068,Peak Scale 276,Healthcare Tech,Starter,149,Monthly,2025-11-12,2026-10-13,Churned,False
+ACC-01069,Pulse Systems 745,DevOps & Cloud,Starter,149,Annual,2026-02-08,,Active,False
+ACC-01070,Hyper Works 218,Healthcare Tech,Starter,149,Annual,2025-08-22,,Active,False
+ACC-01071,Peak Logistics 624,Healthcare Tech,Starter,149,Annual,2025-05-13,,Active,False
+ACC-01072,Sync Systems 307,E-Commerce / Retail,Starter,149,Monthly,2026-07-26,,Active,False
+ACC-01073,BlueFin Labs 20,EdTech,Starter,149,Monthly,2025-09-28,,Active,False
+ACC-01074,Data Works 402,Cybersecurity,Starter,149,Annual,2026-07-05,2026-08-31,Churned,False
+ACC-01075,Cloud Systems 350,Healthcare Tech,Enterprise,2499,Annual,2025-10-29,,Active,False
+ACC-01076,Cloud Systems 269,DevOps & Cloud,Starter,149,Annual,2025-11-26,2026-07-31,Churned,False
+ACC-01077,Synthetix Technologies 923,DevOps & Cloud,Starter,149,Monthly,2026-06-18,2026-08-23,Churned,False
+ACC-01078,Elevate Analytics 908,EdTech,Professional,599,Monthly,2025-01-31,,Active,False
+ACC-01079,Sync Digital 129,E-Commerce / Retail,Starter,149,Monthly,2025-03-11,,Active,False
+ACC-01080,Strata Works 379,EdTech,Enterprise,2499,Annual,2025-07-28,,Active,False
+ACC-01081,Strata Media 330,EdTech,Professional,599,Monthly,2025-09-20,,Active,False
+ACC-01082,Sync Media 883,Cybersecurity,Starter,149,Annual,2026-01-25,2026-04-18,Churned,False
+ACC-01083,Cloud Logistics 197,Fintech,Starter,149,Annual,2025-07-25,2026-05-05,Churned,False
+ACC-01084,Peak Labs 926,EdTech,Enterprise,2499,Monthly,2026-01-27,,Active,False
+ACC-01085,Elevate Solutions 514,Fintech,Enterprise,2499,Annual,2025-04-01,,Active,True
+ACC-01086,Aero Technologies 864,Healthcare Tech,Professional,599,Annual,2026-04-05,,Active,False
+ACC-01087,Data Scale 14,DevOps & Cloud,Professional,599,Annual,2025-05-04,,Active,True
+ACC-01088,Elevate Capital 106,E-Commerce / Retail,Starter,149,Monthly,2025-08-19,,Active,False
+ACC-01089,Quantum Analytics 614,Fintech,Enterprise,2499,Annual,2025-04-07,2026-01-12,Churned,False
+ACC-01090,Elevate Solutions 653,E-Commerce / Retail,Starter,149,Annual,2024-11-06,2025-01-12,Churned,False
+ACC-01091,BlueFin Analytics 980,Cybersecurity,Enterprise,2499,Annual,2026-06-06,,Active,False
+ACC-01092,Aero Analytics 827,Fintech,Professional,599,Annual,2025-01-12,,Active,False
+ACC-01093,Nexus Networks 271,Healthcare Tech,Professional,599,Monthly,2025-12-14,2026-05-14,Churned,False
+ACC-01094,Vanguard Networks 808,EdTech,Professional,599,Annual,2026-08-25,,Active,False
+ACC-01095,Pulse Digital 512,HR Tech,Starter,149,Annual,2025-09-14,,Active,False
+ACC-01096,Synthetix Capital 108,HR Tech,Starter,149,Annual,2026-04-09,2026-09-15,Churned,False
+ACC-01097,Quantum Solutions 284,DevOps & Cloud,Starter,149,Annual,2026-01-08,2026-06-10,Churned,False
+ACC-01098,Synthetix Scale 200,EdTech,Starter,149,Annual,2026-01-11,2026-07-06,Churned,False
+ACC-01099,Omni Solutions 702,Healthcare Tech,Professional,599,Annual,2025-04-08,,Active,False
+ACC-01100,Nexus Digital 489,EdTech,Starter,149,Monthly,2026-03-05,2026-05-21,Churned,False
+ACC-01101,Aero Logistics 545,EdTech,Starter,149,Annual,2026-06-06,2026-07-30,Churned,False
+ACC-01102,Cloud Media 120,DevOps & Cloud,Enterprise,2499,Annual,2025-12-28,,Active,False
+ACC-01103,Strata Analytics 270,DevOps & Cloud,Enterprise,2499,Monthly,2026-03-31,2026-10-31,Churned,False
+ACC-01104,BlueFin Technologies 815,Healthcare Tech,Enterprise,2499,Annual,2024-12-17,,Active,False
+ACC-01105,Aero Analytics 611,Cybersecurity,Enterprise,2499,Annual,2026-02-04,,Active,False
+ACC-01106,Vanguard Logistics 199,Fintech,Starter,149,Annual,2026-07-12,2026-09-08,Churned,False
+ACC-01107,Peak Media 28,Fintech,Starter,149,Annual,2025-02-28,2026-03-15,Churned,False
+ACC-01108,Elevate Solutions 718,EdTech,Professional,599,Annual,2026-07-10,,Active,False
+ACC-01109,Synthetix Works 699,Cybersecurity,Professional,599,Annual,2025-12-10,,Active,True
+ACC-01110,Sync Systems 205,Fintech,Starter,149,Monthly,2025-05-12,,Active,False
+ACC-01111,Sync Capital 257,EdTech,Professional,599,Annual,2026-05-06,2026-09-05,Churned,False
+ACC-01112,BlueFin Technologies 495,EdTech,Starter,149,Monthly,2025-02-28,2025-07-01,Churned,False
+ACC-01113,BlueFin Solutions 492,Fintech,Starter,149,Annual,2026-06-23,2026-09-13,Churned,False
+ACC-01114,Quantum Systems 351,Fintech,Professional,599,Monthly,2026-08-08,,Active,False
+ACC-01115,Peak Solutions 764,DevOps & Cloud,Professional,599,Annual,2026-05-22,,Active,True
+ACC-01116,Quantum Solutions 535,DevOps & Cloud,Professional,599,Annual,2026-07-20,,Active,False
+ACC-01117,Elevate Logistics 741,Fintech,Starter,149,Annual,2024-11-20,,Active,False
+ACC-01118,Nexus Digital 924,Cybersecurity,Enterprise,2499,Annual,2026-02-28,,Active,False
+ACC-01119,Synthetix Solutions 724,EdTech,Starter,149,Monthly,2025-04-15,2025-09-05,Churned,False
+ACC-01120,Elevate Analytics 458,Healthcare Tech,Starter,149,Annual,2025-06-13,,Active,False
+ACC-01121,BlueFin Technologies 914,E-Commerce / Retail,Enterprise,2499,Annual,2025-12-05,,Active,False
+ACC-01122,Synthetix Solutions 828,HR Tech,Enterprise,2499,Monthly,2026-07-30,,Active,False
+ACC-01123,Nexus Capital 504,Healthcare Tech,Enterprise,2499,Monthly,2025-05-24,,Active,False
+ACC-01124,Peak Solutions 320,Healthcare Tech,Professional,599,Monthly,2026-05-25,2026-07-11,Churned,False
+ACC-01125,Synthetix Digital 375,Cybersecurity,Professional,599,Monthly,2025-04-28,,Active,False
+ACC-01126,Cloud Labs 355,EdTech,Professional,599,Monthly,2026-07-26,,Active,False
+ACC-01127,Elevate Digital 358,HR Tech,Starter,149,Annual,2024-12-18,,Active,False
+ACC-01128,Sync Works 904,DevOps & Cloud,Starter,149,Annual,2025-02-15,,Active,False
+ACC-01129,BlueFin Solutions 995,HR Tech,Starter,149,Monthly,2025-02-17,,Active,False
+ACC-01130,Pulse Media 52,DevOps & Cloud,Starter,149,Monthly,2025-04-21,,Active,False
+ACC-01131,Synthetix Technologies 755,E-Commerce / Retail,Professional,599,Annual,2026-01-27,,Active,False
+ACC-01132,Pulse Technologies 672,E-Commerce / Retail,Professional,599,Annual,2025-03-22,2025-08-17,Churned,False
+ACC-01133,BlueFin Networks 797,HR Tech,Starter,149,Monthly,2025-07-10,,Active,False
+ACC-01134,Aero Media 185,Fintech,Starter,149,Annual,2025-11-17,,Active,False
+ACC-01135,Hyper Technologies 781,HR Tech,Professional,599,Annual,2026-01-06,,Active,True
+ACC-01136,Peak Networks 950,EdTech,Starter,149,Annual,2026-04-13,,Active,False
+ACC-01137,Apex Solutions 159,HR Tech,Enterprise,2499,Monthly,2026-04-14,,Active,True
+ACC-01138,Omni Networks 800,Healthcare Tech,Professional,599,Annual,2025-01-02,,Active,True
+ACC-01139,Sync Scale 69,Cybersecurity,Professional,599,Annual,2026-04-17,,Active,False
+ACC-01140,Aero Works 770,E-Commerce / Retail,Professional,599,Annual,2024-11-09,,Active,False
+ACC-01141,Sync Works 423,EdTech,Professional,599,Annual,2025-05-30,,Active,False
+ACC-01142,BlueFin Works 363,HR Tech,Starter,149,Annual,2025-12-20,,Active,False
+ACC-01143,Nexus Systems 560,E-Commerce / Retail,Professional,599,Annual,2025-03-10,,Active,False
+ACC-01144,Data Labs 533,DevOps & Cloud,Professional,599,Annual,2026-04-18,,Active,False
+ACC-01145,Apex Systems 921,HR Tech,Starter,149,Annual,2026-06-30,2026-09-21,Churned,False
+ACC-01146,Peak Media 123,Cybersecurity,Enterprise,2499,Monthly,2025-11-17,,Active,False
+ACC-01147,Pulse Systems 784,Cybersecurity,Professional,599,Monthly,2026-02-03,,Active,False
+ACC-01148,BlueFin Analytics 251,HR Tech,Professional,599,Annual,2026-06-19,,Active,False
+ACC-01149,Hyper Analytics 316,E-Commerce / Retail,Enterprise,2499,Annual,2026-06-10,,Active,False
+ACC-01150,Hyper Labs 345,DevOps & Cloud,Enterprise,2499,Annual,2025-05-17,,Active,False
+ACC-01151,Pulse Technologies 738,EdTech,Professional,599,Annual,2025-01-23,2025-10-12,Churned,False
+ACC-01152,Sync Solutions 229,EdTech,Professional,599,Monthly,2025-11-14,,Active,False
+ACC-01153,Quantum Digital 608,EdTech,Professional,599,Annual,2026-01-08,,Active,False
+ACC-01154,Elevate Works 436,HR Tech,Professional,599,Monthly,2025-03-28,,Active,False
+ACC-01155,BlueFin Technologies 731,DevOps & Cloud,Professional,599,Annual,2025-03-01,,Active,False
+ACC-01156,Cloud Works 170,DevOps & Cloud,Professional,599,Annual,2025-03-02,,Active,False
+ACC-01157,Pulse Analytics 595,E-Commerce / Retail,Starter,149,Monthly,2026-04-20,2026-09-07,Churned,False
+ACC-01158,Aero Analytics 320,E-Commerce / Retail,Enterprise,2499,Annual,2024-11-29,,Active,True
+ACC-01159,Peak Systems 969,E-Commerce / Retail,Enterprise,2499,Annual,2025-06-09,,Active,False
+ACC-01160,Apex Labs 570,E-Commerce / Retail,Starter,149,Monthly,2024-12-16,,Active,False
+ACC-01161,BlueFin Analytics 810,EdTech,Professional,599,Annual,2026-07-14,2026-09-14,Churned,False
+ACC-01162,BlueFin Solutions 693,EdTech,Starter,149,Monthly,2025-09-30,2026-09-29,Churned,False
+ACC-01163,Peak Networks 248,EdTech,Starter,149,Annual,2026-05-08,2026-10-13,Churned,False
+ACC-01164,Strata Capital 100,HR Tech,Professional,599,Monthly,2024-11-26,,Active,False
+ACC-01165,Aero Media 670,Fintech,Starter,149,Annual,2026-05-27,2026-09-28,Churned,False
+ACC-01166,Cloud Scale 544,Healthcare Tech,Professional,599,Annual,2026-03-30,,Active,True
+ACC-01167,Vanguard Systems 291,HR Tech,Professional,599,Monthly,2025-07-10,,Active,False
+ACC-01168,BlueFin Labs 836,DevOps & Cloud,Professional,599,Annual,2025-09-25,,Active,True
+ACC-01169,Apex Analytics 457,Healthcare Tech,Starter,149,Annual,2024-11-25,,Active,False
+ACC-01170,Strata Labs 127,Fintech,Starter,149,Annual,2025-04-22,2025-09-07,Churned,False
+ACC-01171,Strata Labs 167,E-Commerce / Retail,Professional,599,Annual,2025-04-23,2025-11-20,Churned,False
+ACC-01172,Vanguard Systems 740,Fintech,Enterprise,2499,Annual,2025-12-05,,Active,True
+ACC-01173,Omni Digital 394,HR Tech,Professional,599,Monthly,2024-12-24,2026-02-27,Churned,False
+ACC-01174,Hyper Solutions 530,HR Tech,Starter,149,Annual,2025-11-30,,Active,False
+ACC-01175,Omni Solutions 576,EdTech,Professional,599,Monthly,2026-03-11,2026-10-04,Churned,False
+ACC-01176,Hyper Systems 285,DevOps & Cloud,Professional,599,Annual,2025-02-12,,Active,False
+ACC-01177,Sync Digital 591,EdTech,Professional,599,Annual,2025-01-25,,Active,False
+ACC-01178,Sync Analytics 563,Healthcare Tech,Starter,149,Monthly,2026-05-05,,Active,False
+ACC-01179,BlueFin Systems 11,HR Tech,Professional,599,Annual,2026-07-29,,Active,False
+ACC-01180,Apex Systems 965,EdTech,Professional,599,Annual,2026-07-06,,Active,False
+ACC-01181,Synthetix Capital 227,DevOps & Cloud,Enterprise,2499,Annual,2025-08-16,2026-10-13,Churned,False
+ACC-01182,Nexus Digital 101,EdTech,Starter,149,Annual,2025-03-06,,Active,False
+ACC-01183,Strata Networks 225,DevOps & Cloud,Professional,599,Annual,2025-09-22,,Active,False
+ACC-01184,Strata Works 473,E-Commerce / Retail,Enterprise,2499,Monthly,2025-09-26,,Active,False
+ACC-01185,Omni Systems 945,Cybersecurity,Starter,149,Monthly,2026-08-24,,Active,False
+ACC-01186,Apex Systems 698,Healthcare Tech,Enterprise,2499,Annual,2026-05-24,,Active,False
+ACC-01187,Quantum Media 93,HR Tech,Professional,599,Annual,2026-08-29,2026-10-13,Churned,False
+ACC-01188,BlueFin Capital 136,E-Commerce / Retail,Starter,149,Annual,2026-07-09,,Active,True
+ACC-01189,Apex Labs 483,E-Commerce / Retail,Starter,149,Monthly,2026-01-30,2026-09-22,Churned,False
+ACC-01190,Apex Digital 706,Cybersecurity,Professional,599,Annual,2025-05-16,2026-05-10,Churned,False
+ACC-01191,Aero Works 236,Healthcare Tech,Starter,149,Annual,2025-11-07,2026-08-31,Churned,False
+ACC-01192,Data Systems 210,HR Tech,Professional,599,Annual,2025-12-11,2026-06-16,Churned,False
+ACC-01193,Elevate Technologies 575,Healthcare Tech,Starter,149,Annual,2026-06-03,,Active,False
+ACC-01194,Vanguard Labs 612,Healthcare Tech,Professional,599,Annual,2025-01-06,2025-12-08,Churned,False
+ACC-01195,Hyper Media 756,HR Tech,Starter,149,Annual,2025-05-16,,Active,True
+ACC-01196,Strata Capital 583,EdTech,Enterprise,2499,Monthly,2026-01-12,,Active,False
+ACC-01197,Cloud Analytics 452,HR Tech,Enterprise,2499,Annual,2025-08-08,,Active,False
+ACC-01198,Elevate Analytics 539,HR Tech,Enterprise,2499,Monthly,2025-06-18,2026-03-05,Churned,False
+ACC-01199,BlueFin Analytics 15,EdTech,Professional,599,Monthly,2025-10-09,2026-09-11,Churned,False
+ACC-01200,Apex Works 241,Cybersecurity,Starter,149,Annual,2025-01-16,,Active,False
