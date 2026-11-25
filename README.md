@@ -15,6 +15,15 @@
 
 ---
 
+## 🖥️ Live Dashboard Preview
+
+<div align="center">
+  <img src="assets/dashboard_preview.jpg" alt="RevGuard Executive Dashboard Preview" width="100%">
+  <p><em>RevGuard Executive Command Center: Real-time ARR tracking, churn risk radar, and interactive retention modeling.</em></p>
+</div>
+
+---
+
 ## 📌 Executive Summary & Business Problem
 
 In high-growth B2B SaaS companies, **customer churn is the silent killer of Annual Recurring Revenue (ARR)**. Most analytics teams report churn *after* the customer cancels—when it is already too late.
