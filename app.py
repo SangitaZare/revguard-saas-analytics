@@ -69,12 +69,32 @@ def get_analytics():
 
 analytics = get_analytics()
 
+@st.cache_data(ttl=600)
+def load_cached_kpis():
+    return analytics.get_executive_kpis()
+
+@st.cache_data(ttl=600)
+def load_cached_mrr():
+    return analytics.get_mrr_growth_metrics()
+
+@st.cache_data(ttl=600)
+def load_cached_clv():
+    return analytics.get_clv_metrics()
+
+@st.cache_data(ttl=600)
+def load_cached_cohort():
+    return analytics.get_cohort_retention()
+
+@st.cache_data(ttl=600)
+def load_cached_risk():
+    return analytics.get_churn_risk_accounts()
+
 # Header
 st.markdown('<div class="main-header">🛡️ RevGuard: SaaS Retention & Revenue-at-Risk Engine</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">Executive Decision Intelligence: Advanced SQL analytics, cohort churn diagnostics, and financial ROI simulation</div>', unsafe_allow_html=True)
 
 # Top Executive KPI Cards
-kpis = analytics.get_executive_kpis()
+kpis = load_cached_kpis()
 
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
@@ -87,7 +107,8 @@ with col2:
     st.metric(
         label="Active Subscriptions",
         value=f"{kpis['active_accounts']:,}",
-        delta=f"{kpis['overall_churn_rate']}% Historical Churn"
+        delta=f"{kpis['overall_churn_rate']}% Historical Churn",
+        delta_color="off"
     )
 with col3:
     st.metric(
@@ -107,7 +128,7 @@ with col5:
     st.metric(
         label="Gross Margin Estimate",
         value="80.0%",
-        delta="Standard B2B SaaS"
+        delta="Financial Model Assumption"
     )
 
 st.divider()
@@ -127,8 +148,8 @@ tab_exec, tab_cohort, tab_radar, tab_sim, tab_sql = st.tabs([
 with tab_exec:
     st.subheader("Revenue Trajectory & Tier Economics")
     
-    mrr_df = analytics.get_mrr_growth_metrics()
-    clv_df = analytics.get_clv_metrics()
+    mrr_df = load_cached_mrr()
+    clv_df = load_cached_clv()
 
     col_mrr1, col_mrr2 = st.columns([7, 5])
     
@@ -172,7 +193,7 @@ with tab_cohort:
     st.subheader("Triangular Cohort Retention Analysis")
     st.markdown("Track how customer groups retain over 12 months from their initial signup date.")
 
-    cohort_raw = analytics.get_cohort_retention()
+    cohort_raw = load_cached_cohort()
     
     col_opt1, col_opt2 = st.columns([3, 9])
     with col_opt1:
@@ -187,11 +208,11 @@ with tab_cohort:
     # Pivot cohort matrix
     pivot_df = cohort_raw.pivot(index='cohort_month', columns='month_index', values=value_col)
     
-    # Render interactive heatmap with Altair
+    # Render interactive heatmap with Altair (Scale to 120% to account for expansion NDR)
     heatmap_chart = alt.Chart(cohort_raw).mark_rect().encode(
         x=alt.X('month_index:O', title='Months Since Signup (Month 0 to 12)'),
         y=alt.Y('cohort_month:O', title='Signup Cohort Month', sort='ascending'),
-        color=alt.Color(f'{value_col}:Q', scale=alt.Scale(scheme='blues', domain=[0, 100]), title='% Retained'),
+        color=alt.Color(f'{value_col}:Q', scale=alt.Scale(scheme='blues', domain=[0, 120]), title='% Retained'),
         tooltip=[
             alt.Tooltip('cohort_month:O', title='Cohort'),
             alt.Tooltip('cohort_size:Q', title='Initial Size'),
@@ -218,7 +239,7 @@ with tab_radar:
     st.subheader("🚨 Real-Time Churn Early-Warning Radar")
     st.markdown("Pinpoints active accounts exhibiting leading indicators of churn (steep drop in logins, degraded health scores, unresolved support tickets).")
 
-    risk_df = analytics.get_churn_risk_accounts()
+    risk_df = load_cached_risk()
 
     # Filter controls
     available_risks = list(risk_df["risk_category"].unique())
@@ -288,7 +309,7 @@ with tab_sim:
             ["Critical Risk Accounts Only", "Critical + High Risk Accounts", "Enterprise Tier Accounts at Risk"]
         )
         
-        all_risk = analytics.get_churn_risk_accounts()
+        all_risk = load_cached_risk()
         if target_group == "Critical Risk Accounts Only":
             cohort_to_sim = all_risk[all_risk["risk_category"] == "CRITICAL RISK"]
         elif target_group == "Critical + High Risk Accounts":
@@ -336,10 +357,13 @@ with tab_sim:
         )
 
         res_c1, res_c2 = st.columns(2)
+        payback_display = f"{results['payback_months']:.1f} months" if results['payback_months'] is not None else "N/A (Loss)"
+
         with res_c1:
             st.metric("Targeted Accounts", f"{results['targeted_count']:,} accounts")
             st.metric("Total Campaign Budget", f"${results['total_campaign_cost']:,.2f}")
-            st.metric("Payback Period", f"{results['payback_months']:.1f} months")
+            st.metric("Payback Period", payback_display)
+            st.metric("Break-Even Win-Back Rate", f"{results['breakeven_winback_rate_pct']:.1f}%")
         with res_c2:
             st.metric("Projected Saved Accounts", f"{results['expected_saved_accounts']:.1f} accounts")
             st.metric("Gross Revenue Preserved", f"${results['gross_revenue_saved']:,.2f}")
